@@ -115,3 +115,6 @@ opacity: .6;
 .header__info span {
   padding-right: 79px;
 }
+input {
+  padding-left: 15px;
+}
