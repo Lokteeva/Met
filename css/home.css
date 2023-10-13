@@ -1,0 +1,247 @@
+.home {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 1920px;
+  /* background-color: green; */
+  margin: auto;
+}
+.home__nav {
+  transform: rotate(180deg);
+  writing-mode: tb-rl;
+  margin-top: 105px;
+  margin-left: 97px;
+  width: 25px;
+}
+.home__nav a {
+  font-family: 'HelveticaNeueCyr', Arial, sans-serif;
+  color: #7f8589;
+  font-size: 13px;
+  font-weight: 550;
+  line-height: 135%; /* 17.55px */
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  margin-top: 26px;
+}
+.home__nav a:hover {
+  color: #ff3e41;
+}
+.home__subtitle {
+  position: absolute;
+  display: flex;
+  width: 371px;
+  height: 125px;
+  top: 77px;
+  left: 303px;
+  flex-direction: column;
+  /* background-color: rgb(233, 233, 156); */
+  color: #cbcecf;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 135%; /* 43.2px */
+  justify-content: center;
+}
+.home__img1 {
+  position: absolute;
+  left: 717px;
+  top: 141px;
+  width: 438px;
+  height: 685px;
+}
+.home__img2 {
+  position: absolute;
+  left: 220px;
+  top: 216px;
+  width: 491.651px;
+  height: 500px;
+}
+.home__point {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  top: 394px;
+  left: 420px;
+}
+.home__tverdomer {
+  position: absolute;
+  left: 190px;
+  top: 413px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 125%;
+}
+.home__title {
+  position: absolute;
+  top: 324px;
+  right: 223px;
+  color: #fff;
+  text-align: right;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 125%;
+  width: 608px;
+  height: 171px;
+}
+.home__examination {
+  position: absolute;
+  top: 510px;
+  right: 224px;
+}
+.home__examination-line {
+  position: relative;
+}
+.home__examination-content {
+  color: #cbcecf;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 135%; /* 21.6px */
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.home__examination-content::after,
+.home__examination-content:hover::after {
+  position: absolute;
+  top: 9px;
+  left: -112px;
+  content: '';
+  display: block;
+  height: 2px;
+  width: 88px;
+  background-color: #cbcecf;
+}
+.home__play {
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  top: 95px;
+  right: 210px;
+}
+.home__play:hover {
+  opacity: 0.7;
+}
+.home__gosreestr {
+  width: 115px;
+  height: 105px;
+  top: 701px;
+  right: 220px;
+  position: absolute;
+}
+.home__down-img {
+  position: absolute;
+  top: 790px;
+  left: 80px;
+  width: 56px;
+  height: 56px;
+}
+.home__down-content {
+  position: absolute;
+  top: 743px;
+  left: 100px;
+  transform: rotate(180deg);
+  writing-mode: tb-rl;
+  color: #cbcecf;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 135%; /* 17.55px */
+  letter-spacing: 2.47px;
+  text-transform: uppercase;
+}
+.home__down-content:hover,
+.home__down-img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.home__pay {
+  position: absolute;
+  top: 779px;
+  left: 303px;
+}
+.home__pay-line {
+  position: relative;
+}
+.home__pay-content {
+  color: #cbcecf;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 135%; /* 21.6px */
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.home__pay-content:hover {
+  color: #ff3e41;
+  cursor: pointer;
+}
+.home__pay-content::after {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  content: '';
+  display: block;
+  height: 2px;
+  width: 66px;
+  background-color: #cbcecf;
+}
+.home__pay-content:hover::after {
+  background-color: #ff3e41;
+  cursor: pointer;
+}
+.home__socials {
+  position: absolute;
+  top: 320px;
+  right: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.home__socials-icon {
+  background-color: #313538;
+  width: 20px;
+  height: 20px;
+  padding: 14px;
+  border-radius: 50%;
+}
+.home__socials-icon:hover,
+.home__socials-telegram-fon:hover {
+  background-color: #259cd8;
+}
+.home__socials-telegram {
+  width: 16px;
+  height: 16px;
+  padding: 16px;
+  z-index: 5;
+  position: relative;
+}
+.home__socials-telegram-fon {
+  background-color: #313538;
+  border-radius: 50%;
+  z-index: 2;
+  /* position: relative; */
+}
+.home__socials-telegram-prompt {
+  position: absolute;
+  top: 0;
+  left: -169px;
+  width: 192px;
+  height: 48px;
+  border-radius: 51px;
+  background: #313538;
+  color: #cbcecf;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 260%; /* 41.6px */
+  padding-left: 25px;
+  z-index: 1;
+  
+}
+.home__socials-sms {
+}
+.home__socials-message {
+}
+.home__socials-whatsapp {
+  background-color: #313538;
+  border-radius: 50%;
+}
+.home__socials-whatsapp:hover rect {
+  fill: #259cd8;
+}
