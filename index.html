@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="css/home.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header ">
       <div class="header__container">
         <img class="header__logo" src="./img/logo.png" alt="logo" />
-        <nav class="header__nav">
+        <nav class="header__nav ">
           <a href="#" class="header__link">компания</a>
-          <a href="#" class="header__link">продукция</a>
+          <a href="#" id="PR" class="header__link ">продукция</a>
           <a href="#" class="header__link">дилеры</a>
           <a href="#" class="header__link">инфоцентр</a>
           <a href="#" class="header__link">проверка подлинности</a>
@@ -52,7 +52,19 @@
       </div>
     </header>
 
-    <section class="home">
+    <div class="promptNavPR hidden">
+      <div class="promptNav">
+        <ul class="">
+          <li>Твердомеры</li>
+          <li>Меры твердости</li>
+          <li>Подобрать твердомер</li>
+          <li>Подобрать меры твердости</li>
+        </ul>
+        <img src="./img/prompt.png" alt="prompt" class="promptNav__img"/>
+       </div>
+     </div>
+
+    <section class="home none">
       <div class="home__nav">
         <a href="#"><span>06</span></a>
         <a href="#">05</a>
@@ -133,6 +145,9 @@
 
       </div>
     </section>
+
+   
+
 
     <script src="./js/header.js"></script>
     <script src="./js/home.js"></script>

@@ -7,5 +7,16 @@ search.addEventListener('click', function(){
   Input.classList.remove('hidden');
 })
 
+//promptNav
+const promptNav = document.querySelector('.promptNavPR');
+const PR = document.querySelector('#PR');
+
+PR.addEventListener('mouseover', function(){
+  promptNav.classList.remove('hidden');
+})
+
+PR.addEventListener('mouseout', function(){
+  promptNav.classList.add('hidden');
+})
 
 
