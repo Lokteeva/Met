@@ -74,7 +74,7 @@
 .home__title {
   position: absolute;
   top: 324px;
-  right: 223px;
+  right: 300px;
   color: #fff;
   text-align: right;
   font-size: 72px;
@@ -86,7 +86,7 @@
 .home__examination {
   position: absolute;
   top: 510px;
-  right: 224px;
+  right: 300px;
 }
 .home__examination-line {
   position: relative;
@@ -115,7 +115,7 @@
   width: 95px;
   height: 95px;
   top: 95px;
-  right: 210px;
+  right: 290px;
 }
 .home__play:hover {
   opacity: 0.7;
@@ -124,7 +124,7 @@
   width: 115px;
   height: 105px;
   top: 701px;
-  right: 220px;
+  right: 300px;
   position: absolute;
 }
 .home__down-img {
@@ -218,7 +218,10 @@
   z-index: 2;
   /* position: relative; */
 }
-.home__socials-telegram-prompt {
+.home__socials-telegram-prompt,
+.home__socials-whatsapp-prompt,
+.home__socials-sms-prompt,
+.home__socials-message-prompt {
   position: absolute;
   top: 0;
   left: -169px;
@@ -232,11 +235,24 @@
   line-height: 260%; /* 41.6px */
   padding-left: 25px;
   z-index: 1;
-  
+  line-height:48px;
 }
-.home__socials-sms {
+.sms {
+  position: relative;
 }
-.home__socials-message {
+.sms-link {
+  position: relative;
+  z-index: 2;
+}
+.message {
+  position: relative;
+}
+.message-link {
+  position: relative;
+  z-index: 2;
+}
+.whatsapp {
+  position: relative;
 }
 .home__socials-whatsapp {
   background-color: #313538;
@@ -244,4 +260,8 @@
 }
 .home__socials-whatsapp:hover rect {
   fill: #259cd8;
+}
+.whatsapp__link {
+  position: relative;
+  z-index: 2;
 }
