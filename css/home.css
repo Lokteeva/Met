@@ -71,6 +71,9 @@
   font-weight: 700;
   line-height: 125%;
 }
+.home__tverdomer:hover {
+  color: #ff3e41;
+}
 .home__title {
   position: absolute;
   top: 324px;
@@ -235,7 +238,7 @@
   line-height: 260%; /* 41.6px */
   padding-left: 25px;
   z-index: 1;
-  line-height:48px;
+  line-height: 48px;
 }
 .sms {
   position: relative;
@@ -265,3 +268,54 @@
   position: relative;
   z-index: 2;
 }
+.homeSlide2 .home__img2 {
+  width: 728px;
+  height: 782px;
+  position: absolute;
+  top: 83px;
+  left: 508px;
+}
+.homeSlide2 .home__img1 {
+  width: 312px;
+  height: 501px;
+  position: absolute;
+top: 195px;
+/* right: 466px; */
+left: 1142px;
+}
+.homeSlide2 .home__point {
+  position: absolute;
+  top: 400px;
+  left: 1361px;
+}
+.homeSlide2 .home__tverdomer {
+  position: absolute;
+  top: 392px;
+  left: 190px;
+  color: #fff;
+font-size: 72px;
+font-weight: 700;
+line-height: 125%; 
+}
+.homeSlide2 .home__title {
+  position: absolute;
+  top: 415px;
+  right: 190px;
+  color: #CBCECF;
+text-align: right;
+font-size: 32px;
+font-weight: 700;
+line-height: 125%;
+}
+.homeSlide2 .home__title:hover,
+.homeSlide2 .home__examination-content:hover {
+  color: #ff3e41;
+}
+.homeSlide2 .home__examination {
+  position: absolute;
+  top: 490px;
+  left: 300px;
+}
+
+
+

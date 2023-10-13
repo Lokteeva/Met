@@ -42,3 +42,19 @@ btnMessage.addEventListener('mouseover', function(){
 btnMessage.addEventListener('mouseout', function(){
   promptMessage.classList.add('hidden');
 })
+
+//Твердомер-Меры твердости
+const tverdomer = document.querySelector('.home__tverdomer');
+const homeSlide1 = document.querySelector('.homeSlide1');
+const mera = document.querySelector('#mera');
+const homeSlide2 = document.querySelector('.homeSlide2');
+
+tverdomer.addEventListener('click', function(){
+  homeSlide1.classList.add('hidden');
+  homeSlide2.classList.remove('hidden');
+})
+
+mera.addEventListener('click', function(){
+  homeSlide2.classList.add('hidden');
+  homeSlide1.classList.remove('hidden');
+})
