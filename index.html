@@ -3,7 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <title>Met</title>
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/reset.css" />
@@ -12,6 +24,7 @@
     <link rel="stylesheet" href="css/sensor.css" />
     <link rel="stylesheet" href="css/metering.css" />
     <link rel="stylesheet" href="css/security.css" />
+    <link rel="stylesheet" href="css/products.css" />
   </head>
   <body>
     <header class="header none">
@@ -263,7 +276,7 @@
         </div>
     </section>
 
-    <section class="security">
+    <section class="security none">
       <div class="security__frame">
         <h2>Высокая степень защиты корпуса</h2>
         <p>
@@ -283,14 +296,103 @@
         <p>3</p>
         <span>года
           гарантии</span>
+
+            <div class="security-line">
+              <a href="#">подробнее</a>
+            </div>
       </div>
+     </div>
+    </section>
+
+    <section class="products">
+     <div class="products__header">
+      <h2>Наша продукция</h2>
+
+      <div class="products-line">
+        <div class="products-link"><a href="#">Твердомеры</a></div>
+        <div ><a href="#">Меры твердости</a></div>
+      </div>
+
+      <div class="products__catalog">
+        <img class="products__catalog-img" src="./img/Menu.png" alt="catalog"/>
+        <a href="#">В каталог</a>
+      </div>
+
+    <div class="carousel">
+      <div class="carousel__block">
+        <div class="owl-carousel">
+
+      <div class="block">
+        <div class="carousel__item">
+          <img class="carousel__img" src="./img/products/img1.png" alt="catalog"/>
+          <h4>Ультразвуковой твердомер<br/> МЕТ-УДА</h4>
+          <img class="carousel__imgSliding" src="./img/products/sliding.png" alt="sliding"/>
+          <p>В наличии</p>
+          <div class="oldPrice"><del>85 200</del></div>
+          <div class="price">79 368</div>
+          <img class="carousel__imgCard" src="./img/products/card.png" alt="cadr"/>
+          <img class="carousel__img01" src="./img/products/01.png" alt="img"/>
+         </div>
+      </div>
+
+       <div class="block">
+        <div class="carousel__item ">
+          <img class="carousel__img" src="./img/products/img2.png" alt="catalog"/>
+          <h4>Ультразвуковой твердомер<br/> МЕТ-Д1А</h4>
+          <img class="carousel__imgSliding" src="./img/products/sliding.png" alt="sliding"/>
+          <p>В наличии</p>
+          <div class="price2">82 100</div>
+          <img class="carousel__imgCard" src="./img/products/card.png" alt="cadr"/>
+          <img class="carousel__img01" src="./img/products/01.png" alt="img"/>
+         </div>
+       </div>
+
+      <div class="block">
+        <div class="carousel__item">
+          <img class="carousel__img" src="./img/products/img3.png" alt="catalog"/>
+          <h4>Ультразвуковой твердомер<br/> МЕТ-УД</h4>
+          <img class="carousel__imgSliding" src="./img/products/sliding.png" alt="sliding"/>
+          <p>В наличии</p>
+          <div class="price2">82 100</div>
+          <img class="carousel__imgCard" src="./img/products/card.png" alt="cadr"/>
+          <img class="carousel__img01" src="./img/products/01.png" alt="img"/>
+         </div>
+      </div>
+
+        </div>
+       </div>
+       
+       <button class="carousel__btn">
+        <img class="carousel__btn-left" src="./img/products/Vector 4.png" alt="left"/>
+      </button>
+       <button class="carousel__btn">
+        <img class="carousel__btn-right" src="./img/products/Vector 4.png" alt="right"/>
+      </button>
+    </div>
+     
+
      </div>
     </section>
 
    
 
+    
 
+   
+
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
     <script src="./js/header.js"></script>
     <script src="./js/home.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/burgerMenu.js"></script>
   </body>
 </html>
