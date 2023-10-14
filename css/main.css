@@ -1,8 +1,10 @@
 @font-face {
-  font-family: 'HelveticaNeueCyr';
-  src: url('HelveticaNeueCyr-Medium.eot');
-  src: local('HelveticaNeueCyr-Medium'), url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff');
-  
+	font-family: 'HelveticaNeueCyr';
+	src: url('HelveticaNeueCyr-Roman.eot');
+	src: local('HelveticaNeueCyr-Roman'),
+		url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 body {
