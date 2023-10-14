@@ -14,7 +14,6 @@
   font-weight: 700;
   line-height: 135%;
   width: 640px;
-  background-color: green;
   margin: auto;
   padding-top: 72px;
 }
@@ -24,13 +23,11 @@
   left: 89px;
   width: 306px;
   height: 100px;
-  background-color: rgb(53, 103, 53);
 }
 .sensor__content2 {
   position: absolute;
   top: 300px;
   right: 70px;
-  background-color: rgb(84, 211, 84);
   width: 271px;
   height: 108px;
 }
@@ -41,3 +38,35 @@
   width: 672px;
   height: 642px;
 }
+.sensor__content1 h2{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 150%;
+  padding-bottom: 16px;
+}
+.sensor__content1 li{
+  color:#CBCECF;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 180%;
+}
+.sensor__content2 h2{
+  width: 271px;
+  color: #fff;
+font-size: 24px;
+font-weight: 700;
+line-height: 150%;
+padding-bottom: 19px;
+}
+.sensor__content2 a{
+  color: #FF3E41;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%; /* 24px */
+text-decoration-line: underline;
+}
+.sensor__content2 a:hover {
+  cursor: pointer;
+}
+
