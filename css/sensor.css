@@ -1,0 +1,43 @@
+.sensor {
+  position: relative;
+  width: 1314px;
+  height: 782px;
+  background-color: #25292c;
+  border-radius: 28px;
+  margin-left: 303px;
+  margin-top: 30px;
+}
+.sensor__title {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 135%;
+  width: 640px;
+  background-color: green;
+  margin: auto;
+  padding-top: 72px;
+}
+.sensor__content1 {
+  position: absolute;
+  top: 300px;
+  left: 89px;
+  width: 306px;
+  height: 100px;
+  background-color: rgb(53, 103, 53);
+}
+.sensor__content2 {
+  position: absolute;
+  top: 300px;
+  right: 70px;
+  background-color: rgb(84, 211, 84);
+  width: 271px;
+  height: 108px;
+}
+.sensor__img {
+  position: absolute;
+  bottom: 0;
+  left: 321px;
+  width: 672px;
+  height: 642px;
+}
