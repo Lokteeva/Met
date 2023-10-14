@@ -125,6 +125,7 @@ input {
 .promptNav {
   position: relative;
   top: 10.5px;
+  z-index: 2;
 }
 .promptNav ul {
   position: absolute;
@@ -143,5 +144,4 @@ input {
   z-index: 1;
   width: 273px;
   height: 196.5px;
-  opacity: 1;
 }
