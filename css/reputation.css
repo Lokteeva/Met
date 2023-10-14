@@ -1,0 +1,165 @@
+.reputation {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 135%; /* 54px */
+  padding-top: 128px;
+  text-align: center;
+}
+.reputation__container {
+  /* display: flex;
+  flex-direction: column; */
+  padding-top: 80px;
+  margin: auto;
+  width: 1314px;
+  height: 846px;
+  background-color: red;
+}
+.reputation__container1 {
+  display: flex;
+  column-gap: 31px;
+}
+.reputation__block1 {
+  position: relative;
+  width: 641px;
+  height: 696px;
+  border-radius: 28px;
+  background: #25292c;
+}
+.reputation__24 {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 88px;
+}
+.reputation__block1 h2 {
+  color: #fff;
+  font-size: 192px;
+  font-weight: 700;
+  transform: translateY(48px);
+}
+.reputation__block1 h3 {
+  position: absolute;
+  top: 150px;
+  left: 318px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 550;
+  line-height: 135%; /* 43.2px */
+  width: 152px;
+  text-align: left;
+}
+.reputation__block1 p {
+  position: absolute;
+  top: 278px;
+  left: 88px;
+  color: #cbcecf;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 170%; /* 25.5px */
+  width: 454px;
+  text-align: left;
+}
+.reputation__block2 {
+  width: 642px;
+  height: 696px;
+  border-radius: 28px;
+  background: #25292c;
+}
+.reputation__button {
+ display: flex;
+flex-direction: column;
+  text-align: center;
+
+  position: absolute;
+  bottom: 64px;
+  left: 88px;
+}
+.reputation__btn {
+  position: relative;
+display: flex;
+/* justify-content: center; */
+text-align: center;
+border-radius: 66px;
+border: 1px solid #4E5051;
+width: 225px;
+height: 56px;
+
+}
+.reputation__btnB {
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  border-radius: 66px;
+  border: 1px solid #4E5051;
+  width: 465px;
+  height: 56px;
+  }
+.reputation__certificates a,
+.reputation__reviews a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 550;
+  line-height: 22.5px;
+}
+.reputation__btn h5,
+.reputation__btnB h5 {
+  display: flex;
+ align-items: center;
+}
+.reputation__certificates {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 16px;
+}
+.reputation__certificates-img1 {
+  position: absolute;
+  top: 12px;
+  left: 41px;
+  width: 32px;
+  height: 32px;
+}
+.reputation__certificates-img2 {
+  position: absolute;
+  top: 12px;
+  left: 60px;
+  width: 32px;
+  height: 32px;
+}
+.reputation__certificates-img3 {
+  position: absolute;
+  top: 12px;
+  left: 183px;
+  width: 32px;
+  height: 32px;
+}
+.reputation__link1 {
+  position: absolute;
+  top: 16px;
+  left: 77px;
+  
+}
+.reputation__link2 {
+  position: absolute;
+  top: 16px;
+  left: 96px;
+  
+}
+.reputation__link3 {
+  position: absolute;
+  top: 16px;
+  left: 219px;
+  
+}
+
+.reputation__reviews {
+}
+
+.reputation__social {
+}
+.reputation__telegram {
+}
+.reputation__email {
+}
+.reputation__whatsapp {
+}
