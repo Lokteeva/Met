@@ -66,8 +66,8 @@
   background: #25292c;
 }
 .reputation__button {
- display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 
   position: absolute;
@@ -76,14 +76,13 @@ flex-direction: column;
 }
 .reputation__btn {
   position: relative;
-display: flex;
-/* justify-content: center; */
-text-align: center;
-border-radius: 66px;
-border: 1px solid #4E5051;
-width: 225px;
-height: 56px;
-
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  border-radius: 66px;
+  border: 1px solid #4e5051;
+  width: 225px;
+  height: 56px;
 }
 .reputation__btnB {
   position: relative;
@@ -91,10 +90,10 @@ height: 56px;
   /* justify-content: center; */
   text-align: center;
   border-radius: 66px;
-  border: 1px solid #4E5051;
+  border: 1px solid #4e5051;
   width: 465px;
   height: 56px;
-  }
+}
 .reputation__certificates a,
 .reputation__reviews a {
   color: #fff;
@@ -105,7 +104,7 @@ height: 56px;
 .reputation__btn h5,
 .reputation__btnB h5 {
   display: flex;
- align-items: center;
+  align-items: center;
 }
 .reputation__certificates {
   display: grid;
@@ -137,19 +136,85 @@ height: 56px;
   position: absolute;
   top: 16px;
   left: 77px;
-  
 }
 .reputation__link2 {
   position: absolute;
   top: 16px;
   left: 96px;
-  
 }
 .reputation__link3 {
   position: absolute;
   top: 16px;
   left: 219px;
-  
+}
+
+/* block2 */
+.reputation__block2 {
+}
+  .reputation__box {
+    display: grid;
+    grid-template-columns: 6.185fr 1fr 6.185fr 1fr 6.185fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 38px;
+
+  }
+.reputation__block2 h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 550;
+  line-height: 135%; /* 43.2px */
+  padding-top: 72px;
+  padding-bottom: 58px;
+  text-align: center;
+}
+.reputation__box {
+  width: 549px;
+  height: 382px;
+  margin: auto;
+}
+.reputation-line a {
+  font-family: 'HelveticaNeueCyr', Arial, sans-serif;
+  padding-top: 47px;
+  color: #cbcecf;
+  font-size: 15px;
+  font-weight: 550;
+  line-height: 135%; /* 20.25px */
+  position: relative;
+}
+.reputation-line a:hover {
+  color: #ff3e41;
+  cursor: pointer;
+}
+.reputation-line {
+  position: relative;
+}
+.reputation-line a::after {
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  right: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: #cbcecf;
+}
+.reputation-line a:hover::after {
+  background-color: #ff3e41;
+}
+.reputation__vector {
+  display: flex;
+  height: 35px;
+  margin: auto;
+}
+
+.reputation__social {
+}
+.reputation__telegram {
+}
+.reputation__email {
+}
+.reputation__whatsapp {
 }
 
 .reputation__reviews {
