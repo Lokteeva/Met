@@ -98,14 +98,12 @@
 .carousel__btn-left {
   position: absolute;
   top: 50%;
-  /* transform: translateY(-50%); */
   left: -100px;
   rotate: 180deg;
   z-index: 3;
 }
 .carousel__item {
   position: relative;
-  /* padding-right: 30px; */
 }
 .carousel__item h4 {
   position: absolute;

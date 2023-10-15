@@ -7,13 +7,11 @@
   text-align: center;
 }
 .reputation__container {
-  /* display: flex;
-  flex-direction: column; */
   padding-top: 80px;
   margin: auto;
   width: 1314px;
   height: 846px;
-  background-color: red;
+  padding-bottom: 128px;
 }
 .reputation__container1 {
   display: flex;
@@ -77,7 +75,6 @@
 .reputation__btn {
   position: relative;
   display: flex;
-  /* justify-content: center; */
   text-align: center;
   border-radius: 66px;
   border: 1px solid #4e5051;
@@ -87,7 +84,6 @@
 .reputation__btnB {
   position: relative;
   display: flex;
-  /* justify-content: center; */
   text-align: center;
   border-radius: 66px;
   border: 1px solid #4e5051;
@@ -151,14 +147,13 @@
 /* block2 */
 .reputation__block2 {
 }
-  .reputation__box {
-    display: grid;
-    grid-template-columns: 6.185fr 1fr 6.185fr 1fr 6.185fr;
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 38px;
-
-  }
+.reputation__box {
+  display: grid;
+  grid-template-columns: 6.185fr 1fr 6.185fr 1fr 6.185fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 38px;
+}
 .reputation__block2 h2 {
   color: #fff;
   font-size: 32px;
@@ -207,24 +202,55 @@
   height: 35px;
   margin: auto;
 }
-
 .reputation__social {
+  display: flex;
+  padding-top: 30px;
 }
-.reputation__telegram {
+.reputation__social-box {
+  width: 418px;
+  height: 120px;
+  border-radius: 28px;
+  background: #25292c;
+  margin-left: 30px;
+  display: flex;
 }
-.reputation__email {
+.reputation__telegram:hover {
+  background: #259CD8;
 }
-.reputation__whatsapp {
+.reputation__email:hover {
+  background: #FF3E41;
+} 
+.reputation__whatsapp:hover {
+  background: #25CB63;
+}
+.reputation__social-box:first-child {
+  margin-left: 0;
+}
+.reputation__social-box {
+  position: relative;
+}
+.reputation__social-text {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 550;
+  line-height: 33px;
+  text-align: left;
+  padding-left: 32px;
+  vertical-align: end;
+  padding-top: 18px;
+}
+.reputation__social-span {
+  color: #7f8589;
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 21px;
+}
+.reputation__social-img {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 36px;
+  right: 22px;
 }
 
-.reputation__reviews {
-}
 
-.reputation__social {
-}
-.reputation__telegram {
-}
-.reputation__email {
-}
-.reputation__whatsapp {
-}

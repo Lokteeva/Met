@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/security.css" />
     <link rel="stylesheet" href="css/products.css" />
     <link rel="stylesheet" href="css/reputation.css" />
+    <link rel="stylesheet" href="css/production.css" />
   </head>
   <body>
     <header class="header none">
@@ -371,11 +372,10 @@
       </button>
     </div>
      
-
      </div>
     </section>
 
-    <section class="reputation">
+    <section class="reputation none">
       <h2>Твердые аргументы</h2>
 
     <div class="reputation__container">
@@ -491,17 +491,67 @@
           <div class="reputation-line">
             <a href="#">Все клиенты</a>
           </div>
-          
         </div>
       </div>
+
       <div class="reputation__social">
-        <div class="reputation__telegram"></div>
-        <div class="reputation__email"></div>
-        <div class="reputation__whatsapp"></div>
+        <div class="reputation__telegram reputation__social-box">
+          <p class="reputation__social-text"><span class="reputation__social-span">telegram</span><br/>tverdomery_met</p>
+          <img class="reputation__social-img" src="./img/reputation/button1.png" alt="Telegramm"/>
+        </div>
+        <div class="reputation__email reputation__social-box">
+          <p class="reputation__social-text"><span class="reputation__social-span">email</span><br/> mng@tverdomer.ru</p>
+          <img class="reputation__social-img" src="./img/reputation/button2.png" alt="email"/>
+        </div>
+        <div class="reputation__whatsapp reputation__social-box">
+          <p class="reputation__social-text"><span class="reputation__social-span">whatsapp</span><br/> 8 (800) 222-75-26</p>
+          <img class="reputation__social-img" src="./img/reputation/button3.png" alt="WhatsApp"/>
+        </div>
       </div>
     </div>
     </section>
 
+    <section class="production">
+      <h2>Наше производство</h2>
+
+      <div class="carousel2">
+          <div class="owl-carousel">
+            <div class="carousel2__imgPr">
+              <img id="imgPr" onclick="zoomImg()" src="./img/production/03.png" alt="cadr"/>
+              <div class="overlay">
+                <img class="zoom-img" src="./img/production/zoom.png" alt="zoom"/>
+              </div>
+             </div>
+            <div class="carousel2__imgPr">
+              <img id="imgPr" onclick="zoomImg()" src="./img/production/01.png" alt="cadr"/>
+              <div class="overlay">
+                <img class="zoom-img" src="./img/production/zoom.png" alt="zoom"/>
+              </div>
+             </div>
+             <div class="carousel2__imgPr">
+              <img id="imgPr" onclick="zoomImg()" src="./img/production/02.png" alt="cadr"/>
+              <div class="overlay">
+                <img class="zoom-img" src="./img/production/zoom.png" alt="zoom"/>
+             </div>
+            </div>
+
+            
+
+         </div>
+
+                 
+         <button>
+          <img class="carousel2__btn-left" src="./img/production/left.png" alt="left"/>
+        </button>
+         <button >
+          <img class="carousel2__btn-right" src="./img/production/left.png" alt="right"/>
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- <div class="ooo"></div> -->
    
 
     
