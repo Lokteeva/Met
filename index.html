@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="css/products.css" />
     <link rel="stylesheet" href="css/reputation.css" />
     <link rel="stylesheet" href="css/production.css" />
+    <link rel="stylesheet" href="css/infocenter.css" />
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
     <header class="header none">
@@ -511,34 +513,30 @@
     </div>
     </section>
 
-    <section class="production">
+    <section class="production none">
       <h2>Наше производство</h2>
 
       <div class="carousel2">
           <div class="owl-carousel">
             <div class="carousel2__imgPr">
-              <img id="imgPr" onclick="zoomImg()" src="./img/production/03.png" alt="cadr"/>
+              <img  src="./img/production/03.png" alt="cadr"/>
               <div class="overlay">
                 <img class="zoom-img" src="./img/production/zoom.png" alt="zoom"/>
               </div>
              </div>
             <div class="carousel2__imgPr">
-              <img id="imgPr" onclick="zoomImg()" src="./img/production/01.png" alt="cadr"/>
+              <img src="./img/production/01.png" alt="cadr"/>
               <div class="overlay">
                 <img class="zoom-img" src="./img/production/zoom.png" alt="zoom"/>
               </div>
              </div>
              <div class="carousel2__imgPr">
-              <img id="imgPr" onclick="zoomImg()" src="./img/production/02.png" alt="cadr"/>
+              <img  src="./img/production/02.png" alt="cadr"/>
               <div class="overlay">
                 <img class="zoom-img" src="./img/production/zoom.png" alt="zoom"/>
              </div>
             </div>
-
-            
-
          </div>
-
                  
          <button>
           <img class="carousel2__btn-left" src="./img/production/left.png" alt="left"/>
@@ -548,11 +546,107 @@
         </button>
 
       </div>
-
     </section>
 
-    <!-- <div class="ooo"></div> -->
-   
+    <section class="infocenter">
+      <h2>Инфоцентр</h2>
+
+      <div class="carousel2">
+        <div class="owl-carousel">
+
+         <div class="infocenter__item">
+          <img class="infocenter__img" src="./img/infocenter/03.jpg" alt="img"/>
+          <h6>Акции и скидки</h6>
+          <p>Внимание, АКЦИЯ! Твердомер МЕТ-УД теперь дешевле на 15%</p><br>
+          <span>19 марта 2023</span>
+         </div>
+
+         <div class="infocenter__item">
+          <img class="infocenter__img" src="./img/infocenter/01.jpg" alt="img"/>
+          <h6>Новости</h6>
+          <p>Меры твердости поставляются теперь в фирменных металлических футлярах</p>
+          <span>12 марта 2023</span>
+         </div>
+
+         <div class="infocenter__item">
+          <img class="infocenter__img" src="./img/infocenter/02.jpg" alt="img"/>
+          <h6>Новости</h6>
+          <p>МЕТ-HV50 признан лауреатом выставки NDT-2023</p>
+          <span>15 марта 2023</span>
+         </div>
+       </div>
+               
+       <button>
+        <img class="carousel2__btn-left" src="./img/production/left.png" alt="left"/>
+      </button>
+       <button >
+        <img class="carousel2__btn-right" src="./img/production/left.png" alt="right"/>
+      </button>
+
+    </div>
+    
+    <div class="infocenter__line">
+      <a href="#">все публикации</a>
+    </div>
+    </section>
+
+   <footer class="footer">
+    <div class="footer__block1">
+
+      <div class="footer__logo">
+        <img class="footer__img-logo" src="./img/logo.png" alt="logo"/>
+      </div>
+
+      <div class="footer__pdoducts">
+        <h6>Продукция</h6>
+        <ul>
+          <li>Портативные твердомеры</li>
+          <li>Миниатюрные твердомеры</li>
+          <li>Эталонные меры твердости</li>
+          <li>Эталонные меры микротвердости</li>
+          <li>Подбор твердомера</li>
+          <li>Выбор мер твердости</li>
+          <li>Техническая поддержка</li>
+          <li>Часто задаваемые вопросы</li>
+        </ul>
+      </div>
+
+      <div class="footer__company">
+        <h6>Компания</h6>
+        <ul>
+          <li>О компании</li>
+          <li>Музей твердометрии</li>
+          <li>Сертификация</li>
+          <li>Отзывы</li>
+
+          <li>Дилеры</li>
+          <li>Инфоцентр</li>
+          <li>Проверка подлинности</li>
+        </ul>
+      </div>
+
+      <div class="footer__tel">
+        <a href="tel:88002227526">8 (800) 222-75-26</a>
+        <div>
+          <img class="footer__img" src="./img/Phone.png" alt="logo"/>
+        <p>Заказать звонок</p>
+        </div>
+        <div>
+          <img class="footer__img" src="./img/Email.png" alt="logo"/>
+          <a href="mailto:info@tverdomer.ru">info@tverdomer.ru</a>
+        </div>
+        <h6>Офис и производство</h6>
+        <address>
+          124498, г. Москва, Зеленоград, 4922-й проезд, д. 4с4, Технопарк «ЭЛМА».
+        </address>
+      </div>
+    </div>
+
+    <div class="footer__block2">
+      <p class="copyright">COPYRIGHT © 1991-2023 ООО «ЦЕНТР МЕТ» Все права защищены</p>
+      <p class="confidentiality">Политика конфиденциальности</p>
+    </div>
+   </footer>
 
     
 

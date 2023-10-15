@@ -1,3 +1,6 @@
+.production {
+  padding-bottom: 128px;
+}
 .production h2 {
   color: #fff;
   text-align: center;

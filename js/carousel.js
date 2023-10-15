@@ -28,3 +28,5 @@ $('.carousel2__btn-left').click(function () {
   owl2.trigger('prev.owl.carousel');
 });
 
+
+

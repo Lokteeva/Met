@@ -145,8 +145,6 @@
 }
 
 /* block2 */
-.reputation__block2 {
-}
 .reputation__box {
   display: grid;
   grid-template-columns: 6.185fr 1fr 6.185fr 1fr 6.185fr;

@@ -1,0 +1,54 @@
+.footer {
+}
+.footer__block1 {
+  display: flex;
+  width: 1920px;
+  background-color: white;
+  margin: auto;
+
+}
+.footer__logo {
+  padding-left: 303px;
+  background-color: red;
+}
+
+.footer__pdoducts {
+  padding-left: 171px;
+
+  background-color: green;
+
+}
+.footer__pdoducts h6 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+.footer__company {
+  padding-left: 89px;
+  background-color: yellow;
+
+}
+.footer__img {
+  width: 32px;
+height: 32px;
+}
+.footer__img-logo {
+  width: 73px;
+  height: 29px;
+}
+.footer__tel {
+  padding-right: 383px;
+  background-color: blue;
+
+}
+
+.footer__block2 {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  padding-left: 303px;
+}
+.confidentiality {
+  padding-right: 303px;
+}
