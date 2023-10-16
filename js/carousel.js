@@ -3,8 +3,14 @@ const owl = $('.owl-carousel');
 owl.owlCarousel({
   loop: true,
   startPosition: 1,
-  items: 3,
-  margin: 60, 
+  items: 1,
+  margin: 60,
+  responsive: {
+    391: {
+      items: 3,
+      margin: 30,
+    }
+  } 
 });
 $('.carousel__btn-right').click(function () {
   owl.trigger('next.owl.carousel');
@@ -18,8 +24,13 @@ const owl2 = $('.owl-carousel');
 owl2.owlCarousel({
   loop: true,
   startPosition: 1,
-  items: 3,
+  items: 1,
   margin: 0, 
+  responsive: {
+    391: {
+      items: 3,
+    }
+  } 
 });
 $('.carousel2__btn-right').click(function () {
   owl2.trigger('next.owl.carousel');

@@ -85,6 +85,7 @@
   width: 400px;
   height: 595px;
 }
+
 .carousel__btn {
   width: 28px;
   height: 56px;
@@ -94,6 +95,7 @@
   top: 50%;
   right: -100px;
   z-index: 3;
+
 }
 .carousel__btn-left {
   position: absolute;
@@ -101,6 +103,7 @@
   left: -100px;
   rotate: 180deg;
   z-index: 3;
+
 }
 .carousel__item {
   position: relative;
