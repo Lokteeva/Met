@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,6 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
     <title>Met</title>
+    <!-- desctop -->
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/reset.css" />
@@ -29,9 +30,23 @@
     <link rel="stylesheet" href="css/production.css" />
     <link rel="stylesheet" href="css/infocenter.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <!-- mobile -->
+    <link rel="stylesheet" href="cssMedia/header.css" />
+    <link rel="stylesheet" href="cssMedia/main.css" />
+    <link rel="stylesheet" href="cssMedia/reset.css" />
+    <link rel="stylesheet" href="cssMedia/home.css" />
+    <link rel="stylesheet" href="cssMedia/scale.css" />
+    <link rel="stylesheet" href="cssMedia/sensor.css" />
+    <link rel="stylesheet" href="cssMedia/metering.css" />
+    <link rel="stylesheet" href="cssMedia/security.css" />
+    <link rel="stylesheet" href="cssMedia/products.css" />
+    <link rel="stylesheet" href="cssMedia/reputation.css" />
+    <link rel="stylesheet" href="cssMedia/production.css" />
+    <link rel="stylesheet" href="cssMedia/infocenter.css" />
+    <link rel="stylesheet" href="cssMedia/footer.css" />
   </head>
   <body>
-    <header class="header none">
+    <header class="header ">
       <div class="header__container">
         <img class="header__logo" src="./img/logo.png" alt="logo" />
         <nav class="header__nav ">
@@ -63,11 +78,20 @@
         </div>
 
         <div class="header__img">
+          <a href="#"
+          ><img class="header__img-size header__img-tel" src="./img/Phone.png" alt="tel"
+        /></a>
+
           <a href="#">
             <img class="header__img-cart header__img-size" src="./img/cart.png" alt="cart"
           /></a>
+
           <a href="#"
             ><img class="header__img-size header__img-user" src="./img/User.png" alt="user"
+          /></a>
+
+          <a href="#"
+            ><img class="header__img-size header__img-burger" src="./img/burger.png" alt="menu"
           /></a>
         </div>
       </div>
@@ -85,7 +109,7 @@
        </div>
      </div>
 
-    <section class="home none">
+    <section class="home ">
       <div class="home__nav">
         <a href="#"><span>06</span></a>
         <a href="#">05</a>
@@ -99,12 +123,12 @@
       </div>
 
       <div class="homeSlide1 ">
-        <img class="home__img2" src="./img/home/img2blur.png" alt="img1" />
+        <img class="home__img2 blur" src="./img/home/img2blur.png" alt="img1" />
         <img class="home__img1" src="./img/home/img1.png" alt="img2" />
         <img class="home__point" src="./img/home/point.png" alt="point" />
         <a href="#" class="home__tverdomer">Твердомеры</a>
         <h1 class="home__title">
-          Меры<br />
+          Меры<br class="br"/>
           твердости
         </h1>
         <div class="home__examination">
@@ -115,7 +139,7 @@
       </div>
 
       <div class="homeSlide2 hidden">
-        <img class="home__img1" src="./img/home/img1blur.png" alt="img1" />
+        <img class="home__img1 blur" src="./img/home/img1blur.png" alt="img1" />
         <img class="home__img2" src="./img/home/img2.png" alt="img2" />
         <img class="home__point" src="./img/home/point.png" alt="point" />
         <h3 class="home__tverdomer">Твердомеры</h3>
@@ -184,7 +208,7 @@
       </div>
     </section>
 
-    <section class="scale none">
+    <section class="scale ">
       <div class="scale__content">
         <h2 class="scale__title">Достоверное измерение твердости по всем шкалам</h2>
 
@@ -548,7 +572,7 @@
       </div>
     </section>
 
-    <section class="infocenter">
+    <section class="infocenter none">
       <h2>Инфоцентр</h2>
 
       <div class="carousel2">
@@ -590,7 +614,7 @@
     </div>
     </section>
 
-   <footer class="footer">
+   <footer class="footer none">
     <div class="footer__block1">
 
       <div class="footer__logo">
@@ -600,31 +624,31 @@
       <div class="footer__pdoducts">
         <h6>Продукция</h6>
         <ul>
-          <li>Портативные твердомеры</li>
-          <li>Миниатюрные твердомеры</li>
-          <li>Эталонные меры твердости</li>
-          <li>Эталонные меры микротвердости</li>
-          <li>Подбор твердомера</li>
-          <li>Выбор мер твердости</li>
-          <li>Техническая поддержка</li>
-          <li>Часто задаваемые вопросы</li>
+          <li><a href="#">Портативные твердомеры</a></li>
+          <li><a href="#">Миниатюрные твердомеры</a></li>
+          <li><a href="#">Эталонные меры твердости</a></li>
+          <li><a href="#">Эталонные меры микротвердости</a></li>
+          <li><a href="#">Подбор твердомера</a></li>
+          <li><a href="#">Выбор мер твердости</a></li>
+          <li><a href="#">Техническая поддержка</a></li>
+          <li><a href="#">Часто задаваемые вопросы</a></li>
         </ul>
       </div>
 
       <div class="footer__company">
         <h6>Компания</h6>
         <ul>
-          <li>О компании</li>
-          <li>Музей твердометрии</li>
-          <li>Сертификация</li>
-          <li>Отзывы</li>
+          <li><a href="#">О компании</a></li>
+          <li><a href="#">Музей твердометрии</a></li>
+          <li><a href="#">Сертификация</a></li>
+          <li><a href="#">Отзывы</a></li>
         </ul>
 
           <div class="accent">
            <ul>
-            <li><strong>Дилеры</strong></li>
-            <li><strong>Инфоцентр</strong></li>
-            <li><strong>Проверка подлинности</strong></li>
+            <li><strong><a href="#">Дилеры</a></strong></li>
+            <li><strong><a href="#">Инфоцентр</a></strong></li>
+            <li><strong><a href="#">Проверка подлинности</a></strong></li>
            </ul>
           </div>
       </div>
@@ -633,7 +657,7 @@
         <a href="tel:88002227526">8 (800) 222-75-26</a>
         <div class="footer__line">
           <img class="footer__img" src="./img/Phone.png" alt="logo"/>
-        <p>Заказать звонок</p>
+        <a href="#">Заказать звонок</a>
         </div>
         <div class="footer__line">
           <img class="footer__img" src="./img/Email.png" alt="logo"/>
@@ -648,7 +672,7 @@
 
     <div class="footer__block2">
       <p class="copyright">COPYRIGHT © 1991-2023 ООО «ЦЕНТР МЕТ» Все права защищены</p>
-      <p class="confidentiality">Политика конфиденциальности</p>
+      <a href="#" class="confidentiality">Политика конфиденциальности</a>
     </div>
    </footer>
 

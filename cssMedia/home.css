@@ -1,0 +1,116 @@
+@media (max-width: 390px) {
+  body {
+    width: 358px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .home__nav,
+  .blur,
+  .home__point,
+  .home__down-img,
+  .home__down-content,
+  .home__socials,
+  .br {
+    display: none;
+  }
+  .home__subtitle {
+    width: 179px;
+    height: 68px;
+    top: 25px;
+    left: 16px;
+    font-size: 18px;
+  }
+  .home__play {
+    width: 71.465px;
+    height: 67.597px;
+    top: 25px;
+    right: 10px;
+  }
+  .home__img1 {
+    position: static;
+    padding-left: 40px;
+    padding-top: 109px;
+    width: 302px;
+    height: 381px;
+  }
+  .home {
+    height: 690px;
+    width: 390px;
+    /* background-color: red; */
+  }
+  .home__tverdomer,
+  .homeSlide2 .home__title {
+    position: static;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 18px;
+    width: 358px;
+    padding-top: 16px;
+    color: #CBCECF;
+  }
+ 
+  .home__title,
+  .homeSlide2 .home__tverdomer {
+    position: static;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    width: 358px;
+    height: 36px;
+    padding-top: 7px;
+  }
+  .home__examination {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 58px;
+    padding-top: 50px;
+  }
+  .homeSlide2 .home__examination {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 58px;
+    padding-top: 35px;
+  }
+  .home__examination-content {
+    font-size: 12px;
+  }
+  .home__examination-content::after,
+  .home__examination-content:hover::after {
+    top: 6px;
+    left: -42px;
+    width: 30px;
+  }
+  .home__gosreestr {
+    width: 60px;
+    height: 54.782px;
+    top: 111px;
+    right: 20px;
+  }
+  .home__pay {
+    top: 620px;
+    left: inherit;
+    right: 16px;
+  }
+  .home__pay-content {
+    font-size: 12px;
+  }
+  .home__pay-content::after {
+    width: 50px;
+  }
+  .homeSlide2 .home__img2 {
+    width: 302px;
+    height: 381px;
+    position: static;
+    padding-left: 40px;
+    padding-top: 109px;
+  }
+  
+}
+
+
+
+

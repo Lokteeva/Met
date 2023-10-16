@@ -30,7 +30,6 @@
   content: '';
   display: block;
   height: 2px;
-  background-color: #ff3e41;
 }
 .header__link {
   text-decoration: none;
@@ -144,4 +143,10 @@ input {
   z-index: 1;
   width: 273px;
   height: 196.5px;
+}
+
+/* burger */
+.header__img-burger,
+.header__img-tel {
+  display: none;
 }

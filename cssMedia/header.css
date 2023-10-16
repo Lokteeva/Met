@@ -1,0 +1,51 @@
+@media (max-width: 480px) {
+}
+@media (max-width: 390px) {
+  .header__logo {
+   width: 57px;
+   height: 23px;
+  }
+  .header {
+    width: 390px;
+    /* background-color:yellow; */
+  }
+  .header__logo {
+    padding-left: 16px;
+  }
+  .header__container {
+    height: 23px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 358px;
+    margin-left: 16px;
+    margin-right: 16px;
+    
+  }
+  .header__nav,
+  .header__info,
+  .header__info span,
+  .header__img-user,
+  .tel,
+  .header__img-web,
+  .header__img-search {
+    display: none;
+  }
+  .header__img-cart {
+    padding: 0 24px 0 15px;
+  }
+  .header__img-tel {
+    display: block;
+  }
+  .header__img-burger {
+    display: block;
+  }
+  .header__img {
+    margin-left: auto;
+    display: flex;
+  }
+  .header__img-burger:hover,
+  .header__img-tel:hover {
+    opacity: 0.6;
+  }
+}
+

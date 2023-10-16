@@ -2,9 +2,9 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  width: 1920px;
-  /* background-color: green; */
+  /* width: 1920px; */
   margin: auto;
+  height: 865px;
 }
 .home__nav {
   transform: rotate(180deg);
@@ -12,6 +12,7 @@
   margin-top: 105px;
   margin-left: 97px;
   width: 25px;
+  height: 280px;
 }
 .home__nav a {
   font-family: 'HelveticaNeueCyr', Arial, sans-serif;
@@ -279,9 +280,9 @@
   width: 312px;
   height: 501px;
   position: absolute;
-top: 195px;
-/* right: 466px; */
-left: 1142px;
+  top: 195px;
+  /* right: 466px; */
+  left: 1142px;
 }
 .homeSlide2 .home__point {
   position: absolute;
@@ -293,19 +294,19 @@ left: 1142px;
   top: 392px;
   left: 190px;
   color: #fff;
-font-size: 72px;
-font-weight: 700;
-line-height: 125%; 
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 125%;
 }
 .homeSlide2 .home__title {
   position: absolute;
   top: 415px;
   right: 190px;
-  color: #CBCECF;
-text-align: right;
-font-size: 32px;
-font-weight: 700;
-line-height: 125%;
+  color: #cbcecf;
+  text-align: right;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 125%;
 }
 .homeSlide2 .home__title:hover,
 .homeSlide2 .home__examination-content:hover {
@@ -316,6 +317,3 @@ line-height: 125%;
   top: 490px;
   left: 300px;
 }
-
-
-
