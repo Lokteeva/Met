@@ -3,14 +3,21 @@ const owl = $('.owl-carousel');
 owl.owlCarousel({
   loop: true,
   startPosition: 1,
-  items: 1,
-  margin: 60,
-  responsive: {
-    391: {
-      items: 3,
-      margin: 30,
+  responsive:{
+    0:{
+        items:1
+    },
+    390:{
+        items:3,
+        // margin: 60,
+    },
+    1000:{
+        items:3,
+        margin: 60,
     }
-  } 
+},
+responsiveBaseElement: 'body',
+  
 });
 $('.carousel__btn-right').click(function () {
   owl.trigger('next.owl.carousel');
