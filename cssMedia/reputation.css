@@ -1,256 +1,170 @@
-.reputation {
-  color: #fff;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 135%; /* 54px */
-  padding-top: 128px;
-  text-align: center;
+@media (max-width: 390px) {
+  .reputation {
+    font-size: 20px;
+    padding-top: 54px;
+  }
+  .reputation__container {
+    padding-top: 0px;
+    width: 390px;
+    height: 1300px;
+    padding-bottom: inherit;
+  }
+  .reputation__container1 {
+    display: block;
+    column-gap: inherit;
+  }
+  .reputation__block1 {
+    margin: auto;
+    width: 358px;
+    height: 424px;
+    border-radius: 20px;
+  }
+  .reputation__24 {
+    margin-top: 32px;
+    margin-left: 24px;
+  }
+  .reputation__block1 h2 {
+    font-size: 100px;
+    transform: translateY(54px);
+  }
+  .reputation__block1 h3 {
+    top: 56px;
+    left: 147px;
+    font-size: 20px;
+    width: 88px;
+  }
+  .reputation__block1 p {
+    top: 130px;
+    left: 24px;
+    font-size: 12px;
+    width: 310px;
+  }
+  .reputation__button {
+    bottom: 32px;
+    left: 24px;
+  }
+  .reputation__btn {
+    border-radius: 42px;
+    width: 150px;
+    height: 45px;
+  }
+  .reputation__btnB {
+    border-radius: 42px;
+    width: 310px;
+    height: 45px;
+  }
+  .reputation__certificates a,
+  .reputation__reviews a {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .reputation__certificates {
+    padding-bottom: 10px;
+  }
+  .reputation__certificates-img1 {
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    width: 26px;
+    height: 26px;
+  }
+  .reputation__certificates-img2 {
+    position: absolute;
+    top: 10px;
+    left: 33px;
+    width: 26px;
+    height: 26px;
+  }
+  .reputation__certificates-img3 {
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    width: 26px;
+    height: 26px;
+  }
+  .reputation__link1 {
+    position: absolute;
+    top: 16px;
+    left: 47px;
+  }
+  .reputation__link2 {
+    position: absolute;
+    top: 16px;
+    left: 62px;
+  }
+  .reputation__link3 {
+    position: absolute;
+    top: 16px;
+    left: 144px;
+  }
+  /* block2 */
+  .reputation__block2 {
+    width: 358px;
+    height: 496px;
+    border-radius: 20px;
+    margin: 24px auto;
+  }
+  .reputation__box {
+    display: grid;
+    grid-template-columns: 6.185fr 1fr 6.185fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 19px;
+  }
+  .reputation__box-mobile {
+    display: none !important;
+  }
+  .reputation__vector {
+    display: block;
+    height: 37px;
+  }
+  .reputation__box-desctopNon {
+    display: block;
+    height: 37px;
+  }
+  .reputation__box {
+    width: 358px;
+    height: 341px;
+  }
+  .reputation__block2 h2 {
+    font-size: 18px;
+    padding-top: 32px;
+    padding-bottom: 22px;
+  }
+  .reputation-line a {
+    font-size: 12px;
+  }
+  .reputation__social {
+    display: block;
+    padding-top: 0px;
+  }
+  .reputation__social-box {
+    width: 358px;
+    height: 100px;
+    border-radius: 15px;
+    background: #25292c;
+    margin-left: 16px;
+    margin-bottom: 16px;
+  }
+  .reputation__social-text {
+    font-size: 18px;
+    line-height: 33px;
+    padding-left: 34px;
+  }
+  .reputation__social-box:first-child {
+    margin-left: 16px;
+  }
 }
-.reputation__container {
-  padding-top: 80px;
-  margin: auto;
-  width: 1314px;
-  height: 846px;
-  padding-bottom: 128px;
-}
-.reputation__container1 {
-  display: flex;
-  column-gap: 31px;
-}
-.reputation__block1 {
-  position: relative;
-  width: 641px;
-  height: 696px;
-  border-radius: 28px;
-  background: #25292c;
-}
-.reputation__24 {
-  display: flex;
-  margin-top: 80px;
-  margin-left: 88px;
-}
-.reputation__block1 h2 {
-  color: #fff;
-  font-size: 192px;
-  font-weight: 700;
-  transform: translateY(48px);
-}
-.reputation__block1 h3 {
-  position: absolute;
-  top: 150px;
-  left: 318px;
-  color: #fff;
-  font-size: 32px;
-  font-weight: 550;
-  line-height: 135%; /* 43.2px */
-  width: 152px;
-  text-align: left;
-}
-.reputation__block1 p {
-  position: absolute;
-  top: 278px;
-  left: 88px;
-  color: #cbcecf;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 170%; /* 25.5px */
-  width: 454px;
-  text-align: left;
-}
-.reputation__block2 {
-  width: 642px;
-  height: 696px;
-  border-radius: 28px;
-  background: #25292c;
-}
-.reputation__button {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
 
-  position: absolute;
-  bottom: 64px;
-  left: 88px;
-}
-.reputation__btn {
-  position: relative;
-  display: flex;
-  text-align: center;
-  border-radius: 66px;
-  border: 1px solid #4e5051;
-  width: 225px;
-  height: 56px;
-}
-.reputation__btnB {
-  position: relative;
-  display: flex;
-  text-align: center;
-  border-radius: 66px;
-  border: 1px solid #4e5051;
-  width: 465px;
-  height: 56px;
-}
-.reputation__certificates a,
-.reputation__reviews a {
-  color: #fff;
-  font-size: 15px;
-  font-weight: 550;
-  line-height: 22.5px;
-}
-.reputation__btn h5,
-.reputation__btnB h5 {
-  display: flex;
-  align-items: center;
-}
-.reputation__certificates {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-bottom: 16px;
-}
-.reputation__certificates-img1 {
-  position: absolute;
-  top: 12px;
-  left: 41px;
-  width: 32px;
-  height: 32px;
-}
-.reputation__certificates-img2 {
-  position: absolute;
-  top: 12px;
-  left: 60px;
-  width: 32px;
-  height: 32px;
-}
-.reputation__certificates-img3 {
-  position: absolute;
-  top: 12px;
-  left: 183px;
-  width: 32px;
-  height: 32px;
-}
-.reputation__link1 {
-  position: absolute;
-  top: 16px;
-  left: 77px;
-}
-.reputation__link2 {
-  position: absolute;
-  top: 16px;
-  left: 96px;
-}
-.reputation__link3 {
-  position: absolute;
-  top: 16px;
-  left: 219px;
-}
 
-/* block2 */
-.reputation__box {
-  display: grid;
-  grid-template-columns: 6.185fr 1fr 6.185fr 1fr 6.185fr;
-  grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 38px;
-}
-.reputation__block2 h2 {
-  color: #fff;
-  font-size: 32px;
-  font-weight: 550;
-  line-height: 135%; /* 43.2px */
-  padding-top: 72px;
-  padding-bottom: 58px;
-  text-align: center;
-}
-.reputation__box {
-  width: 549px;
-  height: 382px;
-  margin: auto;
-}
-.reputation-line a {
-  font-family: 'HelveticaNeueCyr', Arial, sans-serif;
-  padding-top: 47px;
-  color: #cbcecf;
-  font-size: 15px;
-  font-weight: 550;
-  line-height: 135%; /* 20.25px */
-  position: relative;
-}
-.reputation-line a:hover,
-.reputation__btn h5:hover,
-.reputation__btnB h5:hover {
-  color: #ff3e41;
-  cursor: pointer;
-}
-.reputation-line {
-  position: relative;
-}
-.reputation-line a::after {
-  position: absolute;
-  bottom: -10px;
-  left: 0px;
-  right: 0;
-  content: '';
-  display: block;
-  height: 2px;
-  background-color: #cbcecf;
-}
-.reputation-line a:hover::after {
-  background-color: #ff3e41;
-}
-.reputation__vector {
-  display: flex;
-  height: 35px;
-  margin: auto;
-}
-.reputation__social {
-  display: flex;
-  padding-top: 30px;
-}
-.reputation__social-box {
-  width: 418px;
-  height: 120px;
-  border-radius: 28px;
-  background: #25292c;
-  margin-left: 30px;
-  display: flex;
-}
-.reputation__telegram:hover {
-  background: #259CD8;
-}
-.reputation__email:hover {
-  background: #FF3E41;
-} 
-.reputation__whatsapp:hover {
-  background: #25CB63;
-}
-.reputation__social-box:first-child {
-  margin-left: 0;
-}
-.reputation__social-box {
-  position: relative;
-}
-.reputation__social-text {
-  color: #fff;
-  font-size: 22px;
-  font-weight: 550;
-  line-height: 33px;
-  text-align: left;
-  padding-left: 32px;
-  vertical-align: end;
-  padding-top: 18px;
-}
-.reputation__social-span {
-  color: #7f8589;
-  font-size: 14px;
-  font-weight: 550;
-  line-height: 21px;
-}
+
+
+
+
+
+
 .reputation__social-img {
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  top: 36px;
-  right: 22px;
+  width: 43px;
+  height: 43px;
+  top: 29px;
+  right: 24px;
 }
-
-

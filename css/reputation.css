@@ -252,5 +252,7 @@
   top: 36px;
   right: 22px;
 }
-
+.reputation__box-desctopNon {
+  display: none;
+}
 
