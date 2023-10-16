@@ -46,6 +46,10 @@
     height: 505px;
     padding-bottom: 0px;
   }
+  .active {
+    width: 320px !important;
+  }
+  
 }
 
 
