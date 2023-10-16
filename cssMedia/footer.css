@@ -1,13 +1,14 @@
-.footer {
-}
-.footer__block1 {
-  display: flex;
-  width: 1920px;
-  height: 398px;
-  /* background-color: white; */
-  margin: auto;
-  padding-top: 88px;
-  border-bottom: 1px solid #1B1C1C;
+@media (max-width: 390px) {
+  .footer__block1 {
+    display: block;
+    width: 390px;
+    height: 398px;
+    /* background-color: white; */
+    margin: auto;
+    padding-top: 88px;
+    border-bottom: 1px solid #1B1C1C;
+  }
+
 }
 .footer__logo {
   padding-left: 303px;
