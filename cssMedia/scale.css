@@ -6,15 +6,16 @@
     border-radius: 20px;
     margin: auto;
     margin-top: 54px;
+    margin-left: 16px;
+
   }
   .scale__img {
     position: absolute;
     top: 6px;
-    left: 24px;
+    right: 0;
     margin-left: inherit;
     width: 334px;
     height: 348px;
-    /* margin-left: 16px; */
   }
   .scale__title {
     padding: 361px 0 0 24px;

@@ -1,8 +1,12 @@
+@media (max-width: 390px) {
+
+}
+
 .products {
   position: relative;
   background-color: #fff;
-  width: 100%;
-  height: 1016px;
+  min-width: 390px;
+height: 8237px;
 }
 .products__header {
   height: 266px;

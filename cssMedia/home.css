@@ -1,8 +1,7 @@
 @media (max-width: 390px) {
   body {
     width: 358px;
-    margin-left: 16px;
-    margin-right: 16px;
+   
   }
 
   .home__nav,
@@ -25,7 +24,7 @@
     width: 71.465px;
     height: 67.597px;
     top: 25px;
-    right: 10px;
+    right: 20px;
   }
   .home__img1 {
     position: static;
@@ -37,7 +36,7 @@
   .home {
     height: 690px;
     width: 390px;
-    /* background-color: red; */
+    margin-left: 16px;
   }
   .home__tverdomer,
   .homeSlide2 .home__title {
@@ -88,12 +87,12 @@
     width: 60px;
     height: 54.782px;
     top: 111px;
-    right: 20px;
+    right: 30px;
   }
   .home__pay {
     top: 620px;
     left: inherit;
-    right: 16px;
+    right: 31px;
   }
   .home__pay-content {
     font-size: 12px;

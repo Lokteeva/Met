@@ -7,6 +7,8 @@
     border-radius: 20px;
     margin: auto;
     margin-top: 24px;
+    margin-bottom: 614px;
+    margin-left: 16px;
   }
   .security__frame {
     border-radius: 20px;
@@ -32,6 +34,8 @@
     width: 305px;
     height: 299px;
     border-radius: 0px;
+    border-radius: 20px;
+
   }
   .security__dataTransfer {
     border-radius: 20px;
