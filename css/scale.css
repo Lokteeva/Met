@@ -30,6 +30,10 @@ width: 565px;
   font-weight: 400;
   line-height: 260%;
   height: 42px;
+  border-bottom: 1px solid #303638;
+}
+.notline {
+  border-bottom: none;
 }
 .L {
   text-align: end;

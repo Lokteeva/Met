@@ -1,74 +1,45 @@
-.metering {
-  display: flex;
-  width: 1314px;
-  height: 600px;
-  background-color: #25292c;
-  border-radius: 28px;
-  margin-left: 303px;
-  margin-top: 30px;
+@media (max-width: 390px) {
+  .metering {
+    display: block;
+    width: 358px;
+    height: 624px;
+    border-radius: 20px;
+    margin-top: inherit;
+    margin: auto;
+    margin-top: 24px;
+  }
+  .metering__img {
+    min-width: 358px;
+    height: 325px;
+    /* position: absolute;
+    right: 19px; */
+    /* object-fit: cover; */
+  }
+  .metering__content h2 {
+    padding-top: 29px;
+    padding-left: 24px;
+    width: 310px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 135%;
+  }
+  .metering__content p {
+    color: #cbcecf;
+    font-size: 12px;
+    line-height: 150%; /* 27.2px */
+    width: 310px;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 37px;
+  }
+  .metering__content a {
+    padding-left: 24px;
+    font-size: 12px;
+  }
+  .metering__choose a::after {
+    left: 24px;
+    width: 115px;
+  }
 }
-.metering__img {
-  min-width: 670px;
-  height: 600px;
-}
-.metering__content h2 {
-  padding-top: 104px;
-  padding-left: 71px;
-  width: 477px;
-  color: #fff;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 135%;
-}
-.metering__content p {
-  color: #cbcecf;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 170%; /* 27.2px */
-  width: 485px;
-  padding-left: 71px;
-  padding-top: 48px;
-  padding-bottom: 148px;
-}
-.metering__content p span {
-  color: #fff;
-  font-weight: 550;
-}
-.metering__content a {
-  padding-left: 71px;
-  color: #cbcecf;
-  font-size: 16px;
-  font-weight: 550;
-  line-height: 135%; /* 21.6px */
-  letter-spacing: 0.48px;
-  text-transform: uppercase;
-}
-.metering__choose-line {
-  position: relative;
-}
-.metering__choose {
-  color: #cbcecf;
-  font-size: 16px;
-  font-weight: 550;
-  line-height: 135%; /* 21.6px */
-  letter-spacing: 0.48px;
-  text-transform: uppercase;
-}
-.metering__choose a:hover {
-  color: #ff3e41;
-  cursor: pointer;
-}
-.metering__choose a::after {
-  position: absolute;
-  top: 25px;
-  left: 71px;
-  content: '';
-  display: block;
-  height: 2px;
-  width: 150px;
-  background-color: #cbcecf;
-}
-.metering__choose a:hover::after {
-  background-color: #ff3e41;
 
-}
+
