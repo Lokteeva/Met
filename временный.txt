@@ -1,74 +1,24 @@
-<div class="carousel2">
-        <div class="owl-carousel">
+ opacity: 0;
+  filter: blur(4px);
 
-         <div class="infocenter__item">
-          <img class="infocenter__img" src="./img/infocenter/03.jpg" alt="img"/>
-          <h6>Акции и скидки</h6>
-          <p>Внимание, АКЦИЯ! Твердомер МЕТ-УД теперь дешевле на 15%</p><br>
-          <span>19 марта 2023</span>
-         </div>
 
-         <div class="infocenter__item">
-          <img class="infocenter__img" src="./img/infocenter/01.jpg" alt="img"/>
-          <h6>Новости</h6>
-          <p>Меры твердости поставляются теперь в фирменных металлических футлярах</p>
-          <span>12 марта 2023</span>
-         </div>
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5 0);
 
-         <div class="infocenter__item">
-          <img class="infocenter__img" src="./img/infocenter/02.jpg" alt="img"/>
-          <h6>Новости</h6>
-          <p>МЕТ-HV50 признан лауреатом выставки NDT-2023</p>
-          <span>15 марта 2023</span>
-         </div>
-       </div>
-________________________________
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5 0);
 
-<div class="carousel ">
-      <div class="carousel__block">
-        <div class="owl-carousel">
+  @keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
 
-      <div class="block">
-        <div class="carousel__item">
-          <img class="carousel__img" src="./img/products/img1.png" alt="catalog"/>
-          <h4>Ультразвуковой твердомер<br/> МЕТ-УДА</h4>
-          <img class="carousel__imgSliding" src="./img/products/sliding.png" alt="sliding"/>
-          <p>В наличии</p>
-          <div class="oldPrice"><del>85 200</del></div>
-          <div class="price">79 368</div>
-          <img class="carousel__imgCard" src="./img/products/card.png" alt="cadr"/>
-          <img class="carousel__img01" src="./img/products/01.png" alt="img"/>
-         </div>
-      </div>
+____________________
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
 
-       <div class="block">
-        <div class="carousel__item ">
-          <img class="carousel__img" src="./img/products/img2.png" alt="catalog"/>
-          <h4>Ультразвуковой твердомер<br/> МЕТ-Д1А</h4>
-          <img class="carousel__imgSliding" src="./img/products/sliding.png" alt="sliding"/>
-          <p>В наличии</p>
-          <div class="price2">82 100</div>
-          <img class="carousel__imgCard" src="./img/products/card.png" alt="cadr"/>
-          <img class="carousel__img01" src="./img/products/01.png" alt="img"/>
-         </div>
-       </div>
-
-      <div class="block">
-        <div class="carousel__item">
-          <img class="carousel__img" src="./img/products/img3.png" alt="catalog"/>
-          <h4>Ультразвуковой твердомер<br/> МЕТ-УД</h4>
-          <img class="carousel__imgSliding" src="./img/products/sliding.png" alt="sliding"/>
-          <p>В наличии</p>
-          <div class="price2">82 100</div>
-          <img class="carousel__imgCard" src="./img/products/card.png" alt="cadr"/>
-          <img class="carousel__img01" src="./img/products/01.png" alt="img"/>
-         </div>
-      </div>
-
-        </div>
-       </div>
-
-___________________
-
-  <div class="block">
-<div class="carousel__block">
+@keyframes scale{
+  100% {
+    transform: scale(1);
+  }
+}
