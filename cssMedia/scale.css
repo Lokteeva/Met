@@ -14,9 +14,12 @@
     top: 6px;
     right: 0;
     margin-left: inherit;
+  }
+  .scale__img img{
     width: 334px;
     height: 348px;
   }
+  
   .scale__title {
     padding: 361px 0 0 24px;
     width: 288px;

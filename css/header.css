@@ -25,7 +25,17 @@
   height: 24px;
   margin-right: 163px;
 }
-.header__link::after,
+.header__link::after {
+  position: absolute;
+  left: 0px;
+  bottom: -35px;
+  right: 0px;
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: transparent;
+
+}
 .header__link:hover::after {
   position: absolute;
   left: 0px;
@@ -34,6 +44,8 @@
   content: '';
   display: block;
   height: 2px;
+  background-color: #fff;
+
 }
 .header__link {
   text-decoration: none;

@@ -2,7 +2,7 @@
   display: flex;
   width: 1314px;
   height: 600px;
-  background-color: #25292C;
+  background-color: #25292c;
   border-radius: 28px;
   margin-left: 303px;
   margin-top: 127px;
@@ -10,11 +10,11 @@
 
 .scale__title {
   color: #fff;
-font-size: 40px;
-font-weight: 700;
-line-height: 135%;
-padding: 96px 0 0 72px;
-width: 565px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 135%;
+  padding: 96px 0 0 72px;
+  width: 565px;
 }
 .table {
   display: flex;
@@ -22,10 +22,10 @@ width: 565px;
 .scale__table {
   padding: 72px 0 0 72px;
   border-collapse: separate;
-    border-spacing: 0 10px;
+  border-spacing: 0 10px;
 }
 .scale__table-content {
-  color: #CBCECF;
+  color: #cbcecf;
   font-size: 16px;
   font-weight: 400;
   line-height: 260%;
@@ -39,7 +39,7 @@ width: 565px;
   text-align: end;
 }
 .scale__table-title {
-  color: #7F8589;
+  color: #7f8589;
   font-size: 16px;
   font-weight: 550;
   line-height: 170%; /* 27.2px */
@@ -47,4 +47,9 @@ width: 565px;
 }
 .scale__img {
   margin-left: auto;
+}
+.scale__img img{
+  margin-left: auto;
+  width: 600px;
+  height: 600px;
 }

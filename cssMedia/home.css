@@ -1,9 +1,7 @@
 @media (max-width: 390px) {
   body {
     width: 358px;
-   
   }
-
   .home__nav,
   .blur,
   .home__point,
@@ -33,11 +31,15 @@
     width: 302px;
     height: 381px;
   }
+  .home__img1:hover,
+.home__img2:hover {
+  transform: scale(1.1);
+}
   .home {
     height: 690px;
     width: 390px;
     margin-left: 16px;
-    /* margin-top: 55px; */
+    margin-top: 55px;
   }
   .home__tverdomer,
   .homeSlide2 .home__title {

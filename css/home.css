@@ -48,6 +48,11 @@
   top: 141px;
   width: 438px;
   height: 685px;
+  transition: all .2s ease-in;
+}
+.home__img1:hover,
+.home__img2:hover {
+  transform: scale(1.2);
 }
 .home__img2 {
   position: absolute;
@@ -55,6 +60,8 @@
   top: 216px;
   width: 491.651px;
   height: 500px;
+  transition: all .2s ease-in;
+
 }
 .home__point {
   position: absolute;
