@@ -8,10 +8,8 @@ reputation__whatsapp span сделать белым при наведении
 
 
 
-scale table border-button
-
 metering img padding r 19px
 
-
+бургер меню
 
 infocenter width 390 слайдер уходит на черное

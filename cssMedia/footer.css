@@ -1,136 +1,101 @@
 @media (max-width: 390px) {
   .footer__block1 {
+    position: relative;
     display: block;
     width: 390px;
-    height: 398px;
-    /* background-color: white; */
-    margin: auto;
-    padding-top: 88px;
-    border-bottom: 1px solid #1B1C1C;
+    height: 710px;
+    /* background-color: red; */
+    margin: 0 16px;
+    margin: inherit;
+    padding-top: 56px;
+    border-bottom: none;
   }
-
+  .footer__tel {
+    position: absolute;
+    top: 119px;
+    padding-left: 16px;
+    /* background-color: pink; */
+  }
+  .footer__tel a {
+    font-size: 20px;
+  }
+  .footer__tel h6 {
+    font-size: 14px;
+    padding-top: 0px;
+  }
+  .footer__logo {
+    padding-left: 16px;
+  }
+  .office {
+    position: absolute;
+    top: 195px;
+    left: 16px;
+  }
+  address {
+    font-size: 11px;
+    width: 358px;
+    padding-top: 12px;
+  }
+  .footer__pdoducts {
+    padding-left: 16px;
+    /* background-color: green; */
+    position: absolute;
+    top: 421px;
+    padding-bottom: 40px;
+  }
+  .footer__pdoducts h6,
+  .footer__company h6 {
+    font-size: 12px;
+    padding-bottom: 22px;
+  }
+  .footer__img-logo {
+    width: 60px;
+    height: 24px;
+  }
+  .footer__company li,
+  .footer__pdoducts li {
+    font-size: 11px;
+  }
+  .footer__company {
+    position: absolute;
+    top: 421px;
+    left: 190px;
+    padding-left: 42px;
+  }
+  .footer__company a,
+  .footer__pdoducts a {
+    color: #7f8589;
+  }
+  .accent {
+    position: absolute;
+    bottom: -132px;
+  }
+  .accent strong {
+    font-size: 12px;
+  }
+  .footer__pdoducts::after {
+    position: absolute;
+    bottom: 1px;
+    left: 16px;
+    content: '';
+    display: block;
+    height: 1px;
+    width: 358px;
+    /* background-color: #9ebdbd; */
+    background-color: #1b1c1c;
+  }
+  .footer__block2 {
+    display: block;
+  }
+  .copyright {
+    padding-left: 16px;
+    font-size: 11px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+  }
+  .confidentiality {
+    padding-right: inherit;
+    font-size: 11px;
+    padding: 0 0 56px 16px;
+  }
 }
-.footer__logo {
-  padding-left: 303px;
-  /* background-color: red; */
-}
-.footer__pdoducts {
-  padding-left: 171px;
-  /* background-color: green; */
-}
-.footer__pdoducts h6,
-.footer__company h6 {
-  color: #fff;
-  font-size: 15px;
-  font-weight: 700;
-  padding-bottom: 32px;
-}
-.footer__company {
-  position: relative;
-  padding-left: 89px;
-  /* background-color: yellow; */
-}
-.footer__company li,
-.footer__pdoducts li {
-  color: #7f8589;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 125%;
-  margin-top: 16px;
-}
-.footer__company a,
-.footer__pdoducts a{
-  color: #7f8589;
-}
-.footer__company strong a{
-  color: #fff;
-}
-.accent {
-  position: absolute;
-  bottom: 74px;
-  display: flex;
-  height: 102px;
-  width: 210px;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.footer__img {
-  position: absolute;
-  bottom: 10px;
-  width: 32px;
-  height: 32px;
-}
-.footer__img-logo {
-  width: 73px;
-  height: 29px;
-}
-.footer__tel {
-  padding-left: 210px;
-  /* background-color: pink; */
-}
-.footer__tel a {
-  color: #fff;
-  font-size: 32px;
-  font-weight: 600;
-}
-.footer__tel h6 {
-  color: #fff;
-font-size: 15px;
-font-weight: 700;
-line-height: 125%; /* 18.75px */
-padding-top: 66px;
-}
-.footer__line {
-  position: relative;
-  width: 352px;
-  height: 40px;
-  border-bottom: 1px solid #2B3032;
-  padding-top: 24px;
-}
-.footer__line a,
-.footer__line p {
-  color: #fff;
-font-size: 15px;
-font-weight: 400;
-position: absolute;
-  bottom: 18px;
-  left: 48px;
-}
-.footer__line a:hover,
-.footer__tel a:hover,
-.footer__block2 a:hover,
-.footer__company strong a:hover,
-.footer__company a:hover,
-.footer__pdoducts a:hover {
-  color: #ff3e41;
-}
-.footer__block2 {
-  display: flex;
-  justify-content: space-between;
-}
-address {
-  color:  #7F8589;
-font-size: 15px;
-font-weight: 400;
-line-height: 150%; /* 22.5px */
-width: 272px;
-padding-top: 16px;
-}
-.copyright {
-  padding-left: 303px;
-  color: #7f8589;
-  font-size: 15px;
-  font-weight: 400;
-  padding-bottom: 31px;
-  padding-top: 32px;
-}
-.confidentiality {
-  padding-right: 303px;
-  color: #7f8589;
-  font-size: 15px;
-  font-weight: 400;
-  padding-bottom: 31px;
-  padding-top: 32px;
-}
-
