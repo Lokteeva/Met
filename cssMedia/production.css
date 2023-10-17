@@ -5,7 +5,7 @@
     padding-top: 47px;
   }
   .carousel2 {
-    width: 390px;
+    min-width: 390px;
     height: 298px;
     margin-left: 16px;
   }

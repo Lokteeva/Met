@@ -6,3 +6,7 @@ navBar.onclick = function () {
   nav.classList.toggle('nav--mobile');
   menuIcon.classList.toggle('menu-icon-active');
 };
+
+// document.querySelector('.menu-icon-wrapper').onclick = function(){
+//   document.querySelector('.menu-icon').classList.toggle('menu-icon-active');
+// }
