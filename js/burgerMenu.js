@@ -1,12 +1,15 @@
+
+//burgerMenu
 const navBar = document.querySelector('.nav__toggle');
 const menuIcon = document.querySelector('.menu-icon');
-const nav = document.querySelector('.nav');
+const home = document.querySelector('.home');
+const menu = document.querySelector('.menu--mobile')
 
 navBar.onclick = function () {
-  nav.classList.toggle('nav--mobile');
+  menu.classList.toggle('hidden');
+  // home.classList.toggle('menu--mobile');
   menuIcon.classList.toggle('menu-icon-active');
 };
 
-// document.querySelector('.menu-icon-wrapper').onclick = function(){
-//   document.querySelector('.menu-icon').classList.toggle('menu-icon-active');
-// }
+
+

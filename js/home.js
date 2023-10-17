@@ -58,3 +58,20 @@ mera.addEventListener('click', function(){
   homeSlide2.classList.add('hidden');
   homeSlide1.classList.remove('hidden');
 })
+
+// mobile menu expand
+const btnExtend = document.querySelector('.menu--mobile-products-img');
+const menuExtend = document.querySelector('.menu--mobile-nav-hidden');
+
+const aExtend = document.querySelector('#productsMenu');
+
+
+console.log(btnExtend, menuExtend)
+
+btnExtend.addEventListener('click', function(){
+  menuExtend.classList.toggle('hidden');
+})
+
+aExtend.addEventListener('click', function(){
+  menuExtend.classList.toggle('hidden');
+})

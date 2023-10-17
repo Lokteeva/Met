@@ -96,9 +96,12 @@
             ><img class="header__img-size header__img-user" src="./img/User.png" alt="user"
           /></a>
 
-          <div class="menu-icon-wrapper header__img-burger">
-            <div class="menu-icon"></div>
-          </div>
+          <button type="button" class="nav__toggle">
+            <div class="menu-icon-wrapper header__img-burger">
+              <div class="menu-icon"></div>
+            </div>
+          </button>
+
 
         </div>
       </div>
@@ -116,7 +119,7 @@
        </div>
      </div>
 
-     <div class="menu--mobile">
+     <div id="menu--mobile" class="menu--mobile hidden">
       
       <form>
         <input  placeholder="Поиск" />
@@ -134,21 +137,37 @@
       </div>
 
       <div class="menu--mobile-nav">
-        <h3>компания</h3>
+       <div class="menu--mobile-nav-box">
+        <a>компания</a>
         <div class="menu--mobile-products">
-          <h3>продукция</h3>
-          <img src="./img/expand.svg" alt="expand" />
+          <a id="productsMenu">продукция</a>
+          <img class="menu--mobile-products-img" src="./img/expand.svg" alt="expand" />
         </div>
-        <h3>Дилеры</h3>
-        <h3>инфоцентр</h3>
-        <h3>проверка подлинности</h3>
-        <h3>контакты</h3>
-
-        
-
+        <div class="menu--mobile-nav-hidden hidden">
+          <a href="#">Твердомеры</a>
+          <a href="#">Меры твердости</a>
+          <a href="#">Подобрать твердомер</a>
+          <a href="#">Подобрать меры твердости</a>
+        </div>
+        <a>Дилеры</a>
+        <a>инфоцентр</a>
+        <a>проверка подлинности</a>
+        <a>контакты</a>
+       </div>
+       
       </div>
+      <a class="tel--mobile" href="tel: 88002227526">8 (800) 222-75-26</a>
+    <div class="menu--mobile-socials">
+      <a href="#"><img class="menu--mobile-socials-img" src="./img/mobile socials/t.svg" alt="telegram"/></a>
 
-     </div>
+      <a href="#"><img class="menu--mobile-socials-img" src="./img/mobile socials/w.svg" alt="telegram"/></a>
+
+      <a href="#"><img class="menu--mobile-socials-img " src="./img/mobile socials/email.svg" alt="telegram"/></a>
+
+      <a href="#"><img class="menu--mobile-socials-img " src="./img/mobile socials/sms.svg" alt="telegram"/></a>
+   </div>
+  </div>
+
 
     <section class="home ">
       <div class="home__nav">
