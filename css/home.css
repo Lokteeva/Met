@@ -27,6 +27,11 @@
 .home__nav a:hover {
   color: #ff3e41;
 }
+@keyframes move {
+  from {
+    left: 150px;
+  }
+}
 .home__subtitle {
   position: absolute;
   display: flex;
@@ -41,6 +46,7 @@
   font-weight: 700;
   line-height: 135%; /* 43.2px */
   justify-content: center;
+  animation: move 2s;
 }
 .home__img1 {
   position: absolute;
