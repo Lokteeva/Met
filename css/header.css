@@ -2,6 +2,9 @@
 .hidden {
   display: none;
 }
+.menu--mobile {
+  display: none;
+ }
 .header {
   width: 1920px;
   /* background-color: green; */

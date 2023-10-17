@@ -48,10 +48,12 @@
     <link rel="stylesheet" href="cssMedia/production.css" />
     <link rel="stylesheet" href="cssMedia/infocenter.css" />
     <link rel="stylesheet" href="cssMedia/footer.css" />
+    <link rel="stylesheet" href="cssMedia/menuMobile.css" />
   </head>
   <body>
-    <header class="header ">
-      <div class="header__container">
+    <header class="header nav--mobile ">
+      <div class="header__container ">
+
         <img class="header__logo" src="./img/logo.png" alt="logo" />
         <nav class="header__nav ">
           <a href="#" class="header__link">компания</a>
@@ -62,7 +64,7 @@
           <a href="#" class="header__link">контакты</a>
         </nav>
         <form>
-          <input id="input" class="header__input hidden" placeholder="поиск" />
+          <input id="input" class="header__input hidden" placeholder="Поиск" />
           <img src="./img/Search.png" alt="search" />
         </form>
 
@@ -87,16 +89,12 @@
         /></a>
 
           <a href="#">
-            <img class="header__img-cart header__img-size" src="./img/cart.png" alt="cart"
+            <img class="header__img-cart header__img-size" src="./img/cart.svg" alt="cart"
           /></a>
 
           <a href="#"
             ><img class="header__img-size header__img-user" src="./img/User.png" alt="user"
           /></a>
-
-          <!-- <a href="#"
-            ><img class="header__img-size header__img-burger" src="./img/burger.png" alt="menu"
-          /></a> -->
 
           <div class="menu-icon-wrapper header__img-burger">
             <div class="menu-icon"></div>
@@ -118,7 +116,39 @@
        </div>
      </div>
 
-     <div class="nav--mobile"></div>
+     <div class="menu--mobile">
+      
+      <form>
+        <input  placeholder="Поиск" />
+        <img src="./img/Search.png" alt="search" />
+      </form>
+
+      <div class="menu--mobile-user">
+        <a href="#">Личный кабинет</a>
+        <img  src="./img/User.png" alt="user"/>         
+      </div>
+
+      <div class="menu--mobile-eng">
+        <img src="./img/Web.png" alt="web" />
+        <a>ENG</a>
+      </div>
+
+      <div class="menu--mobile-nav">
+        <h3>компания</h3>
+        <div class="menu--mobile-products">
+          <h3>продукция</h3>
+          <img src="./img/expand.svg" alt="expand" />
+        </div>
+        <h3>Дилеры</h3>
+        <h3>инфоцентр</h3>
+        <h3>проверка подлинности</h3>
+        <h3>контакты</h3>
+
+        
+
+      </div>
+
+     </div>
 
     <section class="home ">
       <div class="home__nav">

@@ -1,0 +1,121 @@
+@media (max-width: 390px) {
+  .nav--mobile {
+    position: relative;
+    position: fixed;
+    /* background-color: rgba(194, 64, 64, 0.7); */
+    height: 55px;
+    display: block;
+    left: 0;
+    top: 0px;
+    width: 390px;
+    /* height: 100%; */
+    z-index: 99;
+    background-color: #1b1f22;
+  }
+
+  .menu--mobile {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    /* background-color:#1B1F22; */
+    display: block;
+    left: 0;
+    top: 55px;
+    width: 390px;
+    /* height: 100%; */
+    height: 846px;
+    z-index: 99;
+    flex-direction: column;
+  }
+  .menu--mobile form input {
+    width: 338px;
+    height: 45px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #25292b;
+    margin-left: 16px;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 32px;
+  }
+  .header__input::placeholder {
+    font-size: 14px;
+    text-transform: none;
+  }
+  .menu--mobile form img {
+    position: absolute;
+    right: 28px;
+    top: 38px;
+    width: 32px;
+    height: 32px;
+  }
+  .menu--mobile-user a {
+    position: relative;
+    display: flex;
+    color: #cbcecf;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    padding-top: 35px;
+    padding-left: 55px;
+    width: 162px;
+  }
+  .menu--mobile-user a:hover,
+  .menu--mobile-eng a:hover {
+    color: #ff3e41;
+  }
+  .menu--mobile-user img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 103px;
+    left: 16px;
+  }
+  .menu--mobile-eng a {
+    position: absolute;
+    top: 111px;
+    left: 343px;
+    color: #cbcecf;
+    font-size: 14px;
+  }
+  .menu--mobile-eng img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 103px;
+    left: 303px;
+  }
+  .menu--mobile::after {
+    position: absolute;
+    top: 168px;
+    left: 16px;
+    content: '';
+    display: block;
+    height: 1px;
+    width: 358px;
+    background-color: #292b32;
+  }
+  .menu--mobile-nav {
+    position: absolute;
+    top: 202px;
+    left: 16px;
+  }
+  .menu--mobile-nav h3 {
+    color: #cbcecf;
+    font-size: 14px;
+    font-weight: 550;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+  }
+  .menu--mobile-products {
+    position: relative;
+  }
+  .menu--mobile-products img {
+    position: absolute;
+    top: 4px;
+    left: 109px;
+    width: 13px;
+    height: 7px;
+    /* background-color: red; */
+  }
+}

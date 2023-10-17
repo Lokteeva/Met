@@ -20,6 +20,9 @@ body {
 .none {
   display: none !important;
 }
+.menu--mobile {
+  display: none;
+}
 
 
 
