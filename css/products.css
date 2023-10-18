@@ -1,7 +1,8 @@
 .products {
   position: relative;
   background-color: #fff;
-  width: 100%;
+  /* width: 100%; */
+  width: 100vw;
   height: 1016px;
 }
 .active.products{

@@ -1,6 +1,7 @@
 .infocenter {
   height: 938px;
   background: #fff;
+  width: 100vw;
 }
 .active.infocenter{
   animation: scroll 1s ease-in;
