@@ -6,8 +6,28 @@
   border-radius: 28px;
   margin-left: 303px;
   margin-top: 127px;
+  
 }
-
+.active.scale{
+  animation: scroll 1s ease-in;
+}
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+.reveal.active {
+  opacity: 1;
+}
+@keyframes scroll {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 .scale__title {
   color: #fff;
   font-size: 40px;

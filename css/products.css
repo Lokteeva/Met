@@ -4,6 +4,9 @@
   width: 100%;
   height: 1016px;
 }
+.active.products{
+  animation: scroll 1s ease-in;
+}
 .products__header {
   height: 266px;
   border-bottom: 1px solid #cbcecf;

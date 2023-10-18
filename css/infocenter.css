@@ -2,6 +2,9 @@
   height: 938px;
   background: #fff;
 }
+.active.infocenter{
+  animation: scroll 1s ease-in;
+}
 .infocenter h2 {
   color: #1b1f22;
   font-size: 40px;

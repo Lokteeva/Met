@@ -1,6 +1,9 @@
 .production {
   padding-bottom: 128px;
 }
+.active.production{
+  animation: scroll 1s ease-in;
+}
 .production h2 {
   color: #fff;
   text-align: center;
