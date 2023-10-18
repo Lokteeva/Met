@@ -1,7 +1,7 @@
 @media (max-width: 390px) {
   .infocenter {
     height: 648px;
-    min-width: 390px !important;
+    width: 390px !important;
   }
   .infocenter__line {
     display: none;

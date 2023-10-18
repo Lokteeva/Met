@@ -3,7 +3,7 @@
     width: inherit;
   }
   .products {
-    min-width: 390px;
+    width: 390px !important;
     height: 733px;
   }
   .products h2 {
