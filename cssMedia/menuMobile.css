@@ -1,4 +1,7 @@
 @media (max-width: 390px) {
+  body {
+    min-width: inherit;
+  }
   .hidden{
     display: none !important;
   }
@@ -13,20 +16,26 @@
     z-index: 99;
     background-color: #1b1f22;
   }
-
+  .menu--mobile::before {
+    position: absolute;
+    top: 0px;
+    content: '';
+    display: block;
+    height: 1px;
+    width: 390px;
+    background-color: #292b32;
+  }
   .menu--mobile {
     overflow-y: hidden;
     position: fixed;
     /* background-color: red; */
     background-color: #1b1f22;
     display: block;
-
     left: 0px;
-
     top: 55px;
     width: 390px;
-    /* height: 100%; */
-    height: 793px;
+    height: 100%;
+    /* height: 793px; */
     z-index: 99;
     flex-direction: column;
   }
@@ -107,7 +116,7 @@
     top: 202px;
     left: 16px;
   }
-  .menu--mobile-nav a {
+  .menu--mobile-nav-box a {
     display: block;
     color: #cbcecf;
     font-size: 14px;
@@ -144,9 +153,6 @@
     background-color: #292b32;
   }
   .tel--mobile {
-    position: absolute;
-    bottom: 90px;
-    left: 16px;
     color: #fff;
     text-align: right;
     font-size: 22px;
@@ -155,13 +161,19 @@
   }
   .menu--mobile-socials {
     display: flex;
-    position: absolute;
-    bottom: 25px;
-    left: 16px;
+    padding-top: 22px;
   }
   .menu--mobile-socials-img {
     width: 48px;
     height: 48px;
     margin-right: 16px;
   }
+  .menu--mobile-telBox {
+    width: 390px;
+    position: absolute;
+    bottom: -127px;
+    left: 16px;
+  
+  }
+  
 }

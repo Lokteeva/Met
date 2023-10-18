@@ -1,4 +1,7 @@
 @media (max-width: 390px) {
+  body {
+    width: inherit;
+  }
   .products {
     min-width: 390px;
     height: 733px;

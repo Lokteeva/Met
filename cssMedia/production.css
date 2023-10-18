@@ -47,7 +47,7 @@
     height: 505px;
     padding-bottom: 0px;
   }
-  .active {
+  .production .active {
     width: 320px !important;
   }
   
