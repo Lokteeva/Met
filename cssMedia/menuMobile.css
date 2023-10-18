@@ -17,7 +17,7 @@
   .menu--mobile {
     overflow-y: hidden;
     position: fixed;
-    /* background-color: rgba(0, 0, 0, 0.9); */
+    /* background-color: red; */
     background-color: #1b1f22;
     display: block;
 
@@ -26,7 +26,7 @@
     top: 55px;
     width: 390px;
     /* height: 100%; */
-    height: 846px;
+    height: 793px;
     z-index: 99;
     flex-direction: column;
   }
@@ -145,7 +145,7 @@
   }
   .tel--mobile {
     position: absolute;
-    bottom: 114px;
+    bottom: 90px;
     left: 16px;
     color: #fff;
     text-align: right;
@@ -156,7 +156,7 @@
   .menu--mobile-socials {
     display: flex;
     position: absolute;
-    bottom: 44px;
+    bottom: 25px;
     left: 16px;
   }
   .menu--mobile-socials-img {
