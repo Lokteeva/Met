@@ -98,4 +98,7 @@
     font-size: 11px;
     padding: 0 0 56px 16px;
   }
+  .footer__up-img {
+   display: none;
+  }
 }

@@ -1,11 +1,44 @@
-
-
-reputation__whatsapp span сделать белым при наведении
-
 в первой карусели наведение на стрелки цвет разный серый черный
 
 
 
+https://skrinshoter.ru/sMRoyrEEN0Y?a не корректно себя ведет секция
+08:08
+
+
+и горизонтальный скролл на сайте
+08:08
 
 
 
+
+
+
+не работает посмотреть видео
+08:08
+
+
+
+_________________
+  <img class="header__logo" src="./img/logo.png" alt="logo" />
+        <nav class="header__nav ">
+          <a href="#" class="header__link">компания</a>
+          <a href="#" id="PR" class="header__link ">продукция</a>
+          <a href="#" class="header__link">дилеры</a>
+          <a href="#" class="header__link">инфоцентр</a>
+          <a href="#" class="header__link">проверка подлинности</a>
+          <a href="#" class="header__link">контакты</a>
+        </nav>
+
+        <div class="promptNavPR">
+          <div class="promptNav">
+            <ul class="">
+              <li>Твердомеры</li>
+              <li>Меры твердости</li>
+              <li>Подобрать твердомер</li>
+              <li>Подобрать меры твердости</li>
+            </ul>
+            <img src="./img/prompt.png" alt="prompt" class="promptNav__img"/>
+           </div>
+         </div>
+         _________________________

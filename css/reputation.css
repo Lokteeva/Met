@@ -217,6 +217,9 @@
   margin-left: 30px;
   display: flex;
 }
+.reputation__social-box:hover span{
+color: #fff;
+}
 .reputation__telegram:hover {
   background: #259CD8;
 }

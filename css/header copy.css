@@ -1,9 +1,10 @@
+
 .hidden {
   display: none;
 }
 .menu--mobile {
   display: none;
-}
+ }
 .header {
   width: 1920px;
   /* background-color: green; */
@@ -24,12 +25,6 @@
   height: 24px;
   margin-right: 163px;
 }
-.header__nav {
-  z-index: 2;
-}
-.header__nav ul {
-  display: flex;
-}
 .header__link::after {
   position: absolute;
   left: 0px;
@@ -39,6 +34,7 @@
   display: block;
   height: 2px;
   background-color: transparent;
+
 }
 .header__link:hover::after {
   position: absolute;
@@ -49,6 +45,7 @@
   display: block;
   height: 2px;
   background-color: #ff3e41;
+
 }
 .header__link {
   text-decoration: none;
@@ -135,44 +132,35 @@ form img {
 input {
   padding-left: 15px;
 }
-
-/* подменю */
-
-.header__nav ul li ul {
-  position: relative;
-  display: none ;
+/* promptNav */
+.promptNavPR {
   position: absolute;
-  left: 120px;
-  top: 10px;
-  /* top: 60px; */
-  width: 273px;
-  background-repeat: no-repeat;
-  height: 300px;
-  /* background-color: #25292b; */
-  padding-left: 32px;
-  padding-top: 95px;
+  top: 90px;
+  left: 342px;
+  /* left: 475px; */
+}
+.promptNav {
+  position: relative;
+  top: 10.5px;
   z-index: 2;
 }
-.header__nav ul li ul img {
+.promptNav ul {
   position: absolute;
-  top: 60px;
-  left: 1px;
-  z-index: -1;
+  z-index: 2;
+  bottom: 19px;
+  left: 22px;
 }
-.header__nav ul li ul li a {
-  width: 100%;
+.promptNav li {
   font-family: 'HelveticaNeueCyr', Arial, sans-serif;
-  padding: 0px;
+  padding: 10px;
   color: #fff;
   font-size: 16px;
   font-weight: 100;
-  padding-bottom: 20px;
 }
-.header__nav ul li ul li a:hover {
-  color: #ff3e41;
-}
-.header__nav ul li:hover > ul  {
-  display: initial ;
+.promptNav__img {
+  z-index: 1;
+  width: 273px;
+  height: 196.5px;
 }
 
 /* burger */

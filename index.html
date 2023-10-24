@@ -57,25 +57,26 @@
 
         <img class="header__logo" src="./img/logo.png" alt="logo" />
         <nav class="header__nav ">
-          <a href="#" class="header__link">компания</a>
-          <a href="#" id="PR" class="header__link ">продукция</a>
-          <a href="#" class="header__link">дилеры</a>
-          <a href="#" class="header__link">инфоцентр</a>
-          <a href="#" class="header__link">проверка подлинности</a>
-          <a href="#" class="header__link">контакты</a>
+          <ul>
+            <li><a href="#" class="header__link">компания</a></li>
+            <li><a href="#" id="PR" class="header__link ">продукция</a>
+              <ul>
+                <li><a href="#">Твердомеры</a></li>
+                <li><a href="#">Меры твердости</a></li>
+                <li><a href="#">Подобрать твердомер</a></li>
+                <li><a href="#">Подобрать меры твердости</a></li>
+                <img src="./img/prompt.png" alt="fon"/>
+              </ul>
+            </li>
+            <li><a href="#" class="header__link">дилеры</a></li>
+            <li><a href="#" class="header__link">инфоцентр</a></li>
+            <li><a href="#" class="header__link">проверка подлинности</a></li>
+            <li><a href="#" class="header__link">контакты</a></li>
+          </ul>
+          
         </nav>
 
-        <div class="promptNavPR hidden">
-          <div class="promptNav">
-            <ul class="">
-              <li>Твердомеры</li>
-              <li>Меры твердости</li>
-              <li>Подобрать твердомер</li>
-              <li>Подобрать меры твердости</li>
-            </ul>
-            <img src="./img/prompt.png" alt="prompt" class="promptNav__img"/>
-           </div>
-         </div>
+       
 
         <form>
           <input id="input" class="header__input hidden" placeholder="Поиск" />
@@ -177,15 +178,18 @@
   </div>
 
 
-    <section class="home ">
+    <section class="home section" id="home">
       <div class="home__nav">
-        <a href="#"><span>06</span></a>
-        <a href="#">05</a>
-        <a href="#">04</a>
-        <a href="#">03</a>
-        <a href="#">02</a>
-        <a href="#">01</a>
+        <ul>
+          <li><a href="#">01</a></li>
+          <li><a href="#">02</a></li>
+          <li><a href="#">03</a></li>
+          <li><a href="#">04</a></li>
+          <li><a href="#">05</a></li>
+          <li><a href="#">06</a></li>
+        </ul>
       </div>
+
       <div class="home__subtitle">
         <h3>Точность без компромиссов</h3>
       </div>
@@ -229,8 +233,8 @@
         </div>
       </div>
 
+      <img class="home__down-img" src="./img/home/scrollDown.png" alt="down" />
       <a href="#main">
-        <img class="home__down-img" src="./img/home/scrollDown.png" alt="down" />
         <p class="home__down-content">вниз</p>
       </a>
 
@@ -278,7 +282,7 @@
       </div>
     </section>
 
-    <section class="scale reveal">
+    <section class="scale reveal section">
       <div class="scale__content ">
         <h2 class="scale__title ">Достоверное измерение твердости по всем шкалам</h2>
 
@@ -338,7 +342,7 @@
       </div>
     </section>
 
-    <section class="sensor reveal">
+    <section class="sensor reveal section">
       <div class="sensor__title">
         <h2 >Ультразвуковой и 
           динамический датчики</h2>
@@ -357,7 +361,7 @@
       <img src="./img/sensor/img1.png" alt="prompt" class="sensor__img"/>
     </section>
 
-    <section class="metering reveal">
+    <section class="metering reveal section">
       <div>
         <img src="./img/metering/img1.png" alt="metering" class="metering__img"/>
       </div>
@@ -374,7 +378,7 @@
         </div>
     </section>
 
-    <section class="security reveal">
+    <section class="security reveal section">
       <div class="security__frame">
         <h2>Высокая степень защиты корпуса</h2>
         <p>
@@ -407,7 +411,7 @@
      </div>
     </section>
 
-    <section class="products reveal">
+    <section class="products reveal section">
      <div class="products__header">
       <h2>Наша продукция</h2>
 
@@ -698,6 +702,11 @@
 
    <footer class="footer" id="main">
     <div class="footer__block1">
+
+      <img class="footer__up-img" src="./img/home/scrollDown.png" alt="down" />
+      <a href="#home">
+        <p class="footer__up-content">вверх</p>
+      </a>
 
       <div class="footer__logo">
         <img class="footer__img-logo" src="./img/logo.png" alt="logo"/>

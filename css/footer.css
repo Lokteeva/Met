@@ -1,4 +1,5 @@
 .footer__block1 {
+  position: relative;
   display: flex;
   width: 1920px;
   height: 398px;
@@ -8,7 +9,7 @@
   border-bottom: 1px solid #1b1c1c;
 }
 .footer__logo {
-  padding-left: 303px;
+  padding-left: 223px;
   /* background-color: red; */
 }
 .footer__pdoducts {
@@ -134,4 +135,29 @@ address {
   padding-bottom: 31px;
   padding-top: 32px;
 }
-
+.footer__up-img {
+  top: 790px;
+  left: 80px;
+  width: 56px;
+  height: 56px;
+  rotate: 180deg;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.footer__up-content {
+  position: absolute;
+  top: 130px;
+  left: 100px;
+  transform: rotate(180deg);
+  writing-mode: tb-rl;
+  color: #cbcecf;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 135%; /* 17.55px */
+  letter-spacing: 2.47px;
+  text-transform: uppercase;
+}
+.footer__up-content:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
