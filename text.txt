@@ -12,13 +12,13 @@
 
 @media (max-width: 1920px) {
 }
-@media (max-width: 1280px) {
+@media (max-width: 1710px) {
 }
-@media (max-width: 1024px) {
+@media (max-width: 1610px) {
 }
-@media (max-width: 768px) {
+@media (max-width: 1510px) {
 }
-@media (max-width: 480px) {
+@media (max-width: 1410px) {
 }
 
 @media (max-width: 320px) {

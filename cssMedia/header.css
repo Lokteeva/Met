@@ -1,9 +1,61 @@
-@media (max-width: 1410px) {
+@media (max-width: 1710px) {
+  .header {
+    width: 1600px;
+  }
+  .header__container {
+    width: 1440px;
+  }
+  .header__logo {
+    margin-right: 80px;
+  }
+  .header__link {
+    margin-right: 48px;
+  }
+}
+@media (max-width: 1610px) {
+  .header {
+    width: 1500px;
+  }
+  .header__container {
+    width: 1340px;
+  }
+  .tel {
+    display: none;
+  }
+  .header__logo {
+    margin-right: 80px;
+  }
+  .header__link {
+    margin-right: 62px;
+  }
+}
+@media (max-width: 1510px) {
   .header {
     width: 1400px;
   }
   .header__container {
     width: 1240px;
+  }
+  .header__logo {
+    margin-right: 60px;
+  }
+  .header__link {
+    margin-right: 48px;
+  }
+}
+
+@media (max-width: 1410px) {
+  .header {
+    width: 1300px;
+  }
+  .header__container {
+    width: 1140px;
+  }
+  .header__logo {
+    margin-right: 40px;
+  }
+  .header__link {
+    margin-right: 35px;
   }
 }
 @media (max-width: 390px) {

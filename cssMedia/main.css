@@ -1,6 +1,21 @@
-@media (max-width: 1410px) {
+@media (max-width: 1710px) {
+  body {
+    width: 1600px;
+  }
+}
+@media (max-width: 1610px) {
+  body {
+    width: 1500px;
+  }
+}
+@media (max-width: 1510px) {
   body {
     width: 1400px;
+  }
+}
+@media (max-width: 1410px) {
+  body {
+    width: 1300px;
   }
 }
 
