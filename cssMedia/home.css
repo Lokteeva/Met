@@ -1,45 +1,4 @@
-/* @media (max-width: 1700px) {
-  .home__img1 {
-    left: 617px;
-  }
-} */
-/* @media (max-width: 1500px) {
-  .home__img1 {
-    position: absolute;
-    left: 550px;
-    top: 141px;
-    width: 292px;
-    height: 457px;
-    transition: all 0.2s ease-in;
-  }
-  .home__img2 {
-    left: 120px;
-    top: 150px;
-    width: 409px;
-    height: 417px;
-  }
-  .homeSlide2 .home__img2 {
-    width: 485px;
-    height: 521px;
-    top: 83px;
-    left: 600px;
-  }
-  .homeSlide2 .home__img1 {
-    width: 260px;
-    height: 425px;
-    top: 100px;
-    left: 1150px;
-  }
-  
-} */
-@media (max-width: 1280px) {
-}
-@media (max-width: 1024px) {
-}
-@media (max-width: 768px) {
-}
-@media (max-width: 480px) {
-}
+
 @media (max-width: 390px) {
   body {
     width: 358px;
