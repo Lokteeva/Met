@@ -110,22 +110,15 @@ window.addEventListener('scroll', () => {
 	}
 });
 
-//
+//видео
+const btnPlay = document.querySelector('.home__play');
+// const closePlay = document.querySelector('.home__blockPlay');
+const blockPlay = document.querySelector('.home__blockPlay');
 
-// window.addEventListener('scroll', () => {
-// 	let scrollDistance = window.scrollY;
+btnPlay.addEventListener('click', function(){
+  blockPlay.classList.remove('none');
+})
 
-// 	if (window.innerWidth > 768) {
-// 		document.querySelectorAll('.section').forEach((el, i) => {
-// 			if (el.offsetTop - document.querySelector('.nav').clientHeight <= scrollDistance) {
-// 				document.querySelectorAll('.nav a').forEach((el) => {
-// 					if (el.classList.contains('active')) {
-// 						el.classList.remove('active');
-// 					}
-// 				});
-
-// 				document.querySelectorAll('.nav li')[i].querySelector('a').classList.add('active');
-// 			}
-// 		});
-// 	}
-// });
+blockPlay.addEventListener('click', function(){
+  blockPlay.classList.add('none');
+})

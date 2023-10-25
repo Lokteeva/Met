@@ -137,6 +137,7 @@
 }
 .home__play:hover {
   opacity: 0.7;
+  cursor: pointer;
 }
 .home__gosreestr {
   width: 115px;
@@ -339,4 +340,19 @@
 @keyframes ani {
   0% {opacity: 0;}
   100% {opacity: 1;}
+}
+
+/* video */
+.home__blockPlay {
+  position: absolute;
+  top: -80px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(49, 44, 44, 0.905);
+  z-index: 3;
+}
+.video {
+  position: absolute;
+  top: 10%;
+  left: 17%;
 }
