@@ -1,39 +1,24 @@
-@media (max-width: 1900px) {
+@media (max-width: 480px) {
+}
+@media (max-width: 390px) {
+  .header__logo {
+    width: 57px;
+    height: 23px;
+  }
   .header {
-    /* width: 1280px; */
-    margin: inherit;
+    width: 390px;
   }
   .header__logo {
-    margin-right: 80px;
+    padding-left: 16px;
   }
-  .header__link {
-    margin-right: 20px;
+  .header__container {
+    height: 23px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 358px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
-}
-@media (max-width: 1500px) {
-  .header__logo {
-    margin-right: 80px;
-  }
-  .tel {
-    display: none;
-  }
-  .header__link {
-    margin-right: 40px;
-  }
-}
-@media (max-width: 1280px) {
-  .header__logo {
-    margin-right: 50px;
-  }
-  .header__link {
-    margin-right: 25px;
-  }
-  .header__info span,
-  .header__img-web {
-    display: none;
-  }
-}
-@media (max-width: 1024px) {
   .header__nav,
   .header__info,
   .header__info span,
@@ -43,17 +28,18 @@
   .header__img-search {
     display: none;
   }
+  .header__img-cart {
+    padding: 0 40px 0 15px;
+  }
   .header__img-tel {
     display: block;
   }
   .header__img-burger {
     display: block;
   }
-  .header__img-cart {
-    padding: 0 40px 0 15px;
-  }
-  .header__logo {
-    padding-left: 80px;
+  .header__img {
+    margin-left: auto;
+    display: flex;
   }
   .header__img-burger:hover,
   .header__img-tel:hover {
@@ -62,7 +48,7 @@
   /* burger */
   .menu-icon-wrapper {
     position: absolute;
-    top: 33.5px;
+    top: 26.5px;
     right: 2px;
     width: 18.5px;
     height: 14px;
@@ -106,60 +92,7 @@
     top: 0;
     transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
   }
-  .header__container {
-    height: 23px;
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-  .header__logo {
-    width: 57px;
-    height: 23px;
-  }
- 
-}
-@media (max-width: 768px) {
-  
-}
-@media (max-width: 480px) {
-  
-  
-}
-@media (max-width: 390px) {
-  .header__nav,
-  .header__info,
-  .header__info span,
-  .header__img-user,
-  .tel,
-  .header__img-web,
-  .header__img-search {
-    display: none;
-  }
-  
-  .header {
-    /* max-width: 320px; */
-  }
-  .header__logo {
-    padding-left: 16px;
-  }
-  .header__container {
-    height: 23px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    max-width: 358px;
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-  .menu-icon-wrapper {
-    top: 25.5px;
-    right: 18px;
-  }
-  .header__img-cart {
-    padding: 0 55px 0 15px;
-  }
-  .header__img {
-    margin-left: auto;
-    display: flex;
-  }
 
-}
 
+  
+}
