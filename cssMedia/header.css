@@ -1,4 +1,10 @@
-@media (max-width: 480px) {
+@media (max-width: 1410px) {
+  .header {
+    width: 1400px;
+  }
+  .header__container {
+    width: 1240px;
+  }
 }
 @media (max-width: 390px) {
   .header__logo {

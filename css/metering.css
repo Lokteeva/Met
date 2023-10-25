@@ -13,6 +13,7 @@
 .metering__img {
   min-width: 670px;
   height: 600px;
+  border-radius: 28px;
 }
 .metering__content h2 {
   padding-top: 104px;
