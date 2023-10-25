@@ -51,3 +51,24 @@ $('.carousel2__btn-left').click(function () {
   owl2.trigger('prev.owl.carousel');
 });
 
+
+// выбор карусели Твердомер или Меры твердости
+const productsMera = document.querySelector('#productsMera');
+const productsHardnessTester = document.querySelector('#productsHardnessTester');
+const productsCarousel1 = document.querySelector('#productsCarousel1');
+const productsCarousel2 = document.querySelector('#productsCarousel2');
+
+productsMera.addEventListener('click', function(){
+  productsCarousel1.classList.add('none');
+  productsCarousel2.classList.remove('none');
+  productsHardnessTester.classList.remove('active');
+  productsMera.classList.add('active');
+
+})
+
+productsHardnessTester.addEventListener('click', function(){
+  productsCarousel2.classList.add('none');
+  productsCarousel1.classList.remove('none');
+  productsHardnessTester.classList.add('active');
+  productsMera.classList.remove('active');
+})

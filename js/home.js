@@ -66,8 +66,6 @@ const menuExtend = document.querySelector('.menu--mobile-nav-hidden');
 const aExtend = document.querySelector('#productsMenu');
 
 
-console.log(btnExtend, menuExtend)
-
 btnExtend.addEventListener('click', function(){
   menuExtend.classList.toggle('hidden');
 })

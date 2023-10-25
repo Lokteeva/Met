@@ -26,25 +26,6 @@ body {
 }
 
 /* для активного меню при скролле */
-/* .home div a { */
-	/* position: fixed;
-	left: 0;
-	top: 0;
-	width: 100%;
-	background-color: #131313;
-	padding: 20px;
-} */
-/* ul { */
-	/* display: flex;
-	list-style-type: none;
-} */
-/* a { */
-	/* text-decoration: none;
-	color: #fff;
-	font-family: sans-serif;
-	display: inline-block;
-	margin-right: 25px;
-} */
 .home__nav a.active {
 	color: #ff3e41;
 }

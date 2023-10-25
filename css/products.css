@@ -36,11 +36,15 @@
   color: #7f8589;
   padding-bottom: 20px;
 }
-.products a:hover,
-.products a:active {
+.products .active a{
+  color: #1b1f22;
+
+}
+.products a:hover {
   color: #1b1f22;
 }
-.products a:hover::after {
+.products a:hover::after,
+.products .active a::after{
   position: absolute;
   top: 25px;
   right: 0px;
@@ -89,7 +93,6 @@
   width: 400px;
   height: 595px;
 }
-
 .carousel__btn {
   width: 28px;
   height: 56px;
@@ -99,7 +102,6 @@
   top: 50%;
   right: -100px;
   z-index: 3;
-
 }
 .carousel__btn-left {
   position: absolute;

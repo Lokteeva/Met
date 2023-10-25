@@ -411,13 +411,13 @@
      </div>
     </section>
 
-    <section class="products reveal section">
+    <section class="products reveal section" id="products">
      <div class="products__header">
       <h2>Наша продукция</h2>
 
       <div class="products-line">
-        <div class="products-link"><a href="#">Твердомеры</a></div>
-        <div ><a href="#">Меры твердости</a></div>
+        <div id="productsHardnessTester" class="products-link active"><a href="#products">Твердомеры</a></div>
+        <div id="productsMera"><a href="#products">Меры твердости</a></div>
       </div>
 
       <div class="products__catalog">
@@ -425,7 +425,8 @@
         <a href="#">В каталог</a>
       </div>
 
-      <div class="carousel ">
+    <!-- карусель для твердомера -->
+      <div id="productsCarousel1" class="carousel ">
         <div class="carousel__block">
           <div class="owl-carousel">
   
@@ -478,6 +479,61 @@
         <img class="carousel__btn-right" src="./img/products/Vector 4.png" alt="right"/>
       </button>
     </div>
+
+    <!-- карусель для мер твердости -->
+    <div id="productsCarousel2" class="carousel none">
+      <div class="carousel__block">
+        <div class="owl-carousel">
+
+      <div class="block">
+        <div class="carousel__item">
+          <img class="carousel__img" src="./img/home/img1.png" alt="catalog"/>
+          <h4>Меры твердости<br/> МЕТ-УДА</h4>
+          <img class="carousel__imgSliding" src="./img/products/sliding.png" alt="sliding"/>
+          <p>В наличии</p>
+          <div class="oldPrice"><del>85 200</del></div>
+          <div class="price">79 368</div>
+          <img class="carousel__imgCard" src="./img/products/card.png" alt="cadr"/>
+          <img class="carousel__img01" src="./img/products/01.png" alt="img"/>
+         </div>
+      </div>
+
+       <div class="block">
+        <div class="carousel__item ">
+          <img class="carousel__img" src="./img/home/img1.png" alt="catalog"/>
+          <h4>Меры твердости<br/> МЕТ-Д1А</h4>
+          <img class="carousel__imgSliding" src="./img/products/sliding.png" alt="sliding"/>
+          <p>В наличии</p>
+          <div class="price2">82 100</div>
+          <img class="carousel__imgCard" src="./img/products/card.png" alt="cadr"/>
+          <img class="carousel__img01" src="./img/products/01.png" alt="img"/>
+         </div>
+       </div>
+
+      <div class="block">
+        <div class="carousel__item">
+          <img class="carousel__img" src="./img/home/img1.png" alt="catalog"/>
+          <h4>Меры твердости<br/> МЕТ-УД</h4>
+          <img class="carousel__imgSliding" src="./img/products/sliding.png" alt="sliding"/>
+          <p>В наличии</p>
+          <div class="price2">82 100</div>
+          <img class="carousel__imgCard" src="./img/products/card.png" alt="cadr"/>
+          <img class="carousel__img01" src="./img/products/01.png" alt="img"/>
+         </div>
+      </div>
+
+        </div>
+       </div>
+
+     
+     
+     <button class="carousel__btn">
+      <img class="carousel__btn-left" src="./img/products/Vector 4.png" alt="left"/>
+    </button>
+     <button class="carousel__btn">
+      <img class="carousel__btn-right" src="./img/products/Vector 4.png" alt="right"/>
+    </button>
+  </div>
      
      </div>
     </section>
