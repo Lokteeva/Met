@@ -1,9 +1,9 @@
-@media (max-width: 1700px) {
+/* @media (max-width: 1700px) {
   .home__img1 {
     left: 617px;
   }
-}
-@media (max-width: 1500px) {
+} */
+/* @media (max-width: 1500px) {
   .home__img1 {
     position: absolute;
     left: 550px;
@@ -31,7 +31,7 @@
     left: 1150px;
   }
   
-}
+} */
 @media (max-width: 1280px) {
 }
 @media (max-width: 1024px) {
