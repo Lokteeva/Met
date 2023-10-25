@@ -2,9 +2,10 @@
   position: relative;
   display: flex;
   flex-direction: row;
+  width: 100vw;
   /* width: 1920px; */
   margin: auto;
-  height: 865px;
+  max-height: 865px;
 }
 .home__nav {
 	position: fixed;

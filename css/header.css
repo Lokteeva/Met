@@ -5,9 +5,11 @@
   display: none;
 }
 .header {
-  width: 1920px;
+  /* max-width: 1920px; */
+  /* width: 100vw; */
   /* background-color: green; */
   margin: auto;
+  display: flex;
   border-bottom: 1px solid #292b32;
 }
 .header__container {
@@ -19,6 +21,9 @@
   padding-bottom: 25px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  /* margin: auto; */
+
 }
 .header__logo {
   height: 24px;
@@ -63,8 +68,6 @@
 .header__input {
   width: 455px;
   height: 38px;
-  align-items: center;
-  flex-shrink: 0;
   border-radius: 5px;
   background: #25292b;
   margin-left: 19px;

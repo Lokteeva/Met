@@ -5,6 +5,7 @@ const Input = document.querySelector('#input');
 search.addEventListener('click', function(){
   headerInfo.classList.add('hidden');
   Input.classList.remove('hidden');
+  search.classList.add('hidden');
 })
 
 //promptNav
