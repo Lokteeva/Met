@@ -1,3 +1,122 @@
+@media (max-width: 1710px) {
+  .security {
+    margin-left: 220px;
+  }
+  .security__frame {
+    width: 325px;
+    height: 782px;
+  }
+  .security__dataTransfer {
+    width: 725px;
+    height: 376px;
+  }
+  .security__guarantee {
+    width: 725px;
+    height: 376px;
+  }
+  .security__frame h2 {
+    width: 300px;
+    font-size: 28px;
+    padding: 150px 0 40px 50px;
+  }
+  .security__frame p {
+    padding-left: 50px;
+    padding-bottom: 62px;
+    width: 300px;
+    font-size: 14px;
+  }
+  .security__frame img {
+    height: 365px;
+  }
+}
+@media (max-width: 1610px) {
+  .security__dataTransfer {
+    width: 625px;
+    height: 376px;
+  }
+  .security__guarantee {
+    width: 625px;
+    height: 376px;
+  }
+  .security__dataTransfer p {
+    padding-left: 40px;
+    justify-content: inherit;
+    padding-top: 50px;
+  }
+  .security__guarantee p {
+    left: 130px;
+  }
+  .security__guarantee span {
+    left: 265px;
+  }
+}
+@media (max-width: 1510px) {
+  .security {
+    margin-left: 200px;
+  }
+  .security__frame {
+    width: 273px;
+    height: 782px;
+  }
+  .security__frame h2 {
+    width: 260px;
+    font-size: 28px;
+    padding: 150px 0 40px 20px;
+  }
+  .security__frame p {
+    padding-left: 20px;
+    padding-bottom: 62px;
+    width: 260px;
+    font-size: 14px;
+  }
+  .security__dataTransfer {
+    width: 600px;
+    height: 376px;
+  }
+  .security__guarantee {
+    width: 600px;
+    height: 376px;
+  }
+}
+@media (max-width: 1410px) {
+  .security {
+    margin-left: 180px;
+  }
+  .security__frame {
+    width: 250px;
+    height: 782px;
+  }
+  .security__frame h2 {
+    width: 235px;
+    font-size: 24px;
+    padding: 150px 0 40px 24px;
+  }
+  .security__frame p {
+    padding-left: 24px;
+    padding-bottom: 62px;
+    width: 235px;
+    font-size: 12px;
+  }
+  .security__dataTransfer {
+    width: 534px;
+    height: 376px;
+  }
+  .security__dataTransfer p {
+    width: 300px;
+    font-size: 16px;
+  }
+  .security__guarantee {
+    width: 534px;
+    height: 376px;
+  }
+  .security__guarantee p {
+    left: 95px;
+  }
+  .security__guarantee span {
+    left: 225px;
+  }
+}
+
 @media (max-width: 390px) {
   .security {
     position: relative;
@@ -35,7 +154,6 @@
     height: 299px;
     border-radius: 0px;
     border-radius: 20px;
-
   }
   .security__dataTransfer {
     border-radius: 20px;
@@ -94,8 +212,3 @@
     right: 20px;
   }
 }
-
-
-
-
-

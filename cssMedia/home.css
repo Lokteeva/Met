@@ -1,25 +1,153 @@
 @media (max-width: 1710px) {
   .home {
     width: 1600px;
-    background-color: rgb(179, 255, 0);
+    /* background-color: rgb(179, 255, 0); */
+  }
+  .home__blockPlay {
+    width: 1600px;
+  }
+  .home__img1 {
+    left: 515px;
+  }
+  .homeSlide2 .home__img2 {
+    left: 515px;
+  }
+  .homeSlide2 .home__point {
+    left: 1050px;
+  }
+  .video {
+    top: 35px;
+    left: 170px;
+  }
+  .homeSlide2 .home__tverdomer {
+    font-size: 65px;
+  }
+  .home__title {
+    font-size: 65px;
+  }
+  .home__img2 {
+    left: 100px;
   }
 }
 @media (max-width: 1610px) {
   .home {
     width: 1500px;
-    background-color: rgb(255, 170, 0);
+    /* background-color: #ffaa00; */
+  }
+  .home__blockPlay {
+    width: 1500px;
+  }
+  .video {
+    left: 110px;
+  }
+  .homeSlide2 .home__tverdomer {
+    font-size: 55px;
+  }
+  .home__title {
+    font-size: 55px;
+  }
+  .homeSlide2 .home__img2 {
+    left: 460px;
+  }
+  .homeSlide2 .home__point {
+    left: 976px;
+  }
+  .homeSlide2 .home__img1 {
+    left: 1050px;
   }
 }
 @media (max-width: 1510px) {
   .home {
     width: 1400px;
-    background-color: rgb(0, 255, 94);
+    /* background-color: rgb(0, 255, 94); */
+  }
+  .home__blockPlay {
+    width: 1400px;
+  }
+  .video {
+    left: 70px;
+  }
+  .homeSlide2 .home__img2 {
+    width: 607px;
+    height: 652px;
+  }
+  .homeSlide2 .home__point {
+    left: 900px;
+  }
+  .homeSlide2 .home__title {
+    font-size: 28px;
+  }
+  .home__tverdomer {
+    font-size: 28px;
+  }
+  .home__point {
+    left: 380px;
+  }
+  .home__img1 {
+    left: 400px;
+  }
+  .home__img2 {
+    width: 409px;
+    height: 417px;
+  }
+  .homeSlide2 .home__img1 {
+    width: 260px;
+    height: 417px;
+    left: 1000px;
   }
 }
+
 @media (max-width: 1410px) {
   .home {
     width: 1300px;
-    background-color: red;
+    /* background-color: red; */
+  }
+  .home__blockPlay {
+    width: 1300px;
+  }
+  .video {
+    left: 220px;
+  }
+  .video iframe {
+    width: 840px;
+    height: 472px;
+  }
+  .homeSlide2 .home__img2 {
+    width: 506px;
+    height: 543px;
+    left: 431px;
+  }
+  .homeSlide2 .home__point {
+    left: 807px;
+  }
+  .homeSlide2 .home__img1 {
+    width: 217px;
+    height: 348px;
+    left: 943px;
+  }
+  .home__img1 {
+    width: 365px;
+    height: 570px;
+    left: 440px;
+  }
+  .home__img2 {
+    width: 340px;
+    height: 348px;
+  }
+  .home__subtitle {
+    left: 240px;
+  }
+  .home__title {
+    right: 190px;
+  }
+  .home__examination {
+    right: 190px;
+  }
+  .homeSlide2 .home__tverdomer {
+    left: 150px;
+  }
+  .homeSlide2 .home__examination {
+    left: 260px;
   }
 }
 

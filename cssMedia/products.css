@@ -1,3 +1,49 @@
+@media (max-width: 1710px) {
+  .products {
+    width: 1600px;
+  }
+  .carousel__block {
+    width: 1336px;
+  }
+}
+@media (max-width: 1610px) {
+  .products {
+    width: 1500px;
+  }
+  .carousel__block {
+    width: 1300px;
+  }
+  .carousel__btn-left {
+    left: -50px;
+  }
+  .carousel__btn-right {
+    right: -50px;
+  }
+}
+@media (max-width: 1510px) {
+  .products {
+    width: 1400px;
+  }
+  .carousel__btn-left {
+    left: -33px;
+  }
+  .carousel__btn-right {
+    right: -20px;
+  }
+ 
+}
+@media (max-width: 1410px) {
+  .products {
+    width: 1300px;
+  }
+  .carousel__btn-left {
+    left: 5px;
+  }
+  .carousel__btn-right {
+    right: 18px;
+  }
+}
+
 @media (max-width: 390px) {
   body {
     width: inherit;
