@@ -16,7 +16,7 @@ body {
   color: #cbcecf;
   background-color: #1B1F22;
   width: 1920px;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 .none {
   display: none !important;
