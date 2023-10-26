@@ -11,7 +11,7 @@ owl.owlCarousel({
     },
     1000: {
       items: 3,
-      margin: 0,
+      margin: 60,
     },
   },
   responsiveBaseElement: 'body',
