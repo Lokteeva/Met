@@ -1,6 +1,6 @@
 @media (max-width: 1710px) {
   .infocenter {
-    width: 1600px;
+    width: 1700px;
   }
   .infocenter__item p {
     width: 200px;
@@ -9,17 +9,17 @@
 }
 @media (max-width: 1610px) {
   .infocenter {
-    width: 1500px;
+    width: 1600px;
   }
 }
 @media (max-width: 1510px) {
   .infocenter {
-    width: 1400px;
+    width: 1500px;
   }
 }
 @media (max-width: 1410px) {
   .infocenter {
-    width: 1300px;
+    width: 1400px;
   }
 }
 

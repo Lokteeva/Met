@@ -3,7 +3,7 @@
   background: #fff;
   width: 1920px;
 }
-.active.infocenter{
+.active.infocenter {
   animation: scroll 1s ease-in;
 }
 .infocenter h2 {
